@@ -1,0 +1,53 @@
+{
+  "project": "LingoBridge",
+  "release": "2026-10-30-offline-tts-improvements",
+  "source_original_files": 147,
+  "files_in_release": 164,
+  "changed_files": [
+    "lingobridge/.env.example",
+    "lingobridge/AUDIO_CONFIGURATION.md",
+    "lingobridge/README.md",
+    "lingobridge/WINDOWS_SETUP.md",
+    "lingobridge/backend/.env.example",
+    "lingobridge/backend/app/main.py",
+    "lingobridge/backend/app/pronunciation.py",
+    "lingobridge/backend/requirements.txt",
+    "lingobridge/backend/tests/test_language_quality.py",
+    "lingobridge/src/App.jsx",
+    "lingobridge/src/components/layout/AdminLayout.jsx",
+    "lingobridge/src/components/quiz/QuizQuestion.jsx",
+    "lingobridge/src/hooks/useSpeech.js",
+    "lingobridge/src/pages/admin/AdminDashboard.jsx",
+    "lingobridge/src/pages/admin/StudentOverviewPage.jsx",
+    "lingobridge/src/pages/auth/RegisterPage.jsx",
+    "lingobridge/src/pages/public/LandingPage.jsx",
+    "lingobridge/src/pages/student/LessonDetailPage.jsx"
+  ],
+  "new_files": [
+    "lingobridge/ADMIN_MODULE_GUIDE.md",
+    "lingobridge/AUDIO_SETUP_GUIDE.md",
+    "lingobridge/DATABASE_MIGRATION_GUIDE.md",
+    "lingobridge/FREE_TTS_MODELS_GUIDE.md",
+    "lingobridge/IMPLEMENTATION_REPORT.md",
+    "lingobridge/PASSWORD_SECURITY_GUIDE.md",
+    "lingobridge/TESTING_REPORT.md",
+    "lingobridge/backend/app/local_tts.py",
+    "lingobridge/backend/app/password_policy.py",
+    "lingobridge/backend/scripts/generate_local_audio.py",
+    "lingobridge/backend/tests/test_local_audio_and_integrity.py",
+    "lingobridge/run_all_checks.ps1",
+    "lingobridge/src/components/common/PasswordStrength.jsx",
+    "lingobridge/src/pages/admin/AudioManagementPage.jsx",
+    "lingobridge/src/utils/passwordPolicy.js",
+    "lingobridge/tests/password-policy.test.mjs"
+  ],
+  "deleted_original_files": [],
+  "validation": {
+    "backend_pytest": "47 PASS",
+    "node_tests": "8 PASS",
+    "js_jsx_parse": "62 PASS",
+    "vite_build": "BLOCKED - npm packages unavailable",
+    "actual_10_language_audio": "NOT RUN",
+    "production_postgres": "NOT TOUCHED"
+  }
+}

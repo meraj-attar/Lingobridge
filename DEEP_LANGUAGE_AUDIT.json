@@ -1,0 +1,69 @@
+{
+  "languages": {
+    "en": {
+      "vocabulary": 86,
+      "questions": 93,
+      "no_native_script": 0,
+      "lesson_count": 22
+    },
+    "hi": {
+      "vocabulary": 86,
+      "questions": 93,
+      "no_native_script": 0,
+      "lesson_count": 22
+    },
+    "mr": {
+      "vocabulary": 56,
+      "questions": 88,
+      "no_native_script": 0,
+      "lesson_count": 22
+    },
+    "gu": {
+      "vocabulary": 54,
+      "questions": 72,
+      "no_native_script": 0,
+      "lesson_count": 18
+    },
+    "bn": {
+      "vocabulary": 54,
+      "questions": 72,
+      "no_native_script": 0,
+      "lesson_count": 18
+    },
+    "ta": {
+      "vocabulary": 54,
+      "questions": 72,
+      "no_native_script": 0,
+      "lesson_count": 18
+    },
+    "te": {
+      "vocabulary": 54,
+      "questions": 72,
+      "no_native_script": 0,
+      "lesson_count": 18
+    },
+    "kn": {
+      "vocabulary": 54,
+      "questions": 72,
+      "no_native_script": 0,
+      "lesson_count": 18
+    },
+    "ur": {
+      "vocabulary": 54,
+      "questions": 72,
+      "no_native_script": 0,
+      "lesson_count": 18
+    },
+    "es": {
+      "vocabulary": 54,
+      "questions": 72,
+      "no_native_script": 0,
+      "lesson_count": 18
+    }
+  },
+  "issue_count": 0,
+  "issues": [],
+  "native_speaker_validation": "NOT PERFORMED",
+  "urdu_direction_expected": "rtl",
+  "note": "No proof of grammar, semantics, regional style, naturalness or accurate pronunciation."
+}

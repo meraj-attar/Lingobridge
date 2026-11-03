@@ -1,0 +1,5630 @@
+{
+  "levels": [
+    {
+      "id": "lvl-a1",
+      "code": "A1",
+      "name": "Beginner",
+      "description": "Basic phrases, everyday expressions, and foundational grammar.",
+      "sort_order": 1
+    },
+    {
+      "id": "lvl-a2",
+      "code": "A2",
+      "name": "Elementary",
+      "description": "Simple routine tasks, personal background, and immediate environment.",
+      "sort_order": 2
+    },
+    {
+      "id": "lvl-b1",
+      "code": "B1",
+      "name": "Intermediate",
+      "description": "Main points of clear standard input on familiar matters.",
+      "sort_order": 3
+    },
+    {
+      "id": "lvl-b2",
+      "code": "B2",
+      "name": "Upper Intermediate",
+      "description": "Complex texts, technical discussions, and spontaneous fluency.",
+      "sort_order": 4
+    },
+    {
+      "id": "lvl-c1",
+      "code": "C1",
+      "name": "Advanced",
+      "description": "Flexible language use for social, academic, and professional purposes.",
+      "sort_order": 5
+    },
+    {
+      "id": "lvl-c2",
+      "code": "C2",
+      "name": "Proficient",
+      "description": "Effortless comprehension and nuanced spontaneous expression.",
+      "sort_order": 6
+    }
+  ],
+  "languages": [
+    {
+      "id": "lang-en",
+      "name": "English",
+      "native_name": "English",
+      "code": "en",
+      "description": "Master the global language of business, travel, and international communication.",
+      "icon": "BookOpen",
+      "flag": "🇬🇧",
+      "color": "#2563EB",
+      "is_active": true
+    },
+    {
+      "id": "lang-hi",
+      "name": "Hindi",
+      "native_name": "हिन्दी",
+      "code": "hi",
+      "description": "Explore the rich linguistic heritage of India with Devanagari script and expressive idioms.",
+      "icon": "Languages",
+      "flag": "🇮🇳",
+      "color": "#EA580C",
+      "is_active": true
+    },
+    {
+      "id": "lang-fr",
+      "name": "French",
+      "native_name": "Français",
+      "code": "fr",
+      "description": "Immerse yourself in the language of culture, cuisine, diplomacy, and romance.",
+      "icon": "Compass",
+      "flag": "🇫🇷",
+      "color": "#4F46E5",
+      "is_active": true
+    },
+    {
+      "id": "lang-es",
+      "name": "Spanish",
+      "native_name": "Español",
+      "code": "es",
+      "description": "Connect with over 500 million native speakers across Spain and Latin America.",
+      "icon": "Sparkles",
+      "flag": "🇪🇸",
+      "color": "#DC2626",
+      "is_active": true
+    },
+    {
+      "id": "lang-de",
+      "name": "German",
+      "native_name": "Deutsch",
+      "code": "de",
+      "description": "Unlock career and study opportunities in the economic and engineering powerhouse of Europe.",
+      "icon": "Cpu",
+      "flag": "🇩🇪",
+      "color": "#CA8A04",
+      "is_active": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "les-en-1",
+      "language_id": "lang-en",
+      "level_id": "lvl-a1",
+      "title": "Greetings & Introductions",
+      "description": "Learn how to greet people politely, introduce yourself, and ask how others are doing.",
+      "duration_minutes": 15,
+      "lesson_order": 1,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=7u_C_qZ19v8",
+      "objectives": [
+        "Say hello and goodbye in formal and informal situations",
+        "Introduce yourself with your name and country",
+        "Ask common pleasantries like 'How are you?'"
+      ],
+      "content": "### Welcome to English Foundations!\nEnglish greetings change depending on the time of day and the formality of the situation.\n\n#### 1. Formal vs. Informal Greetings\n- **Formal:** \"Good morning\", \"Good afternoon\", \"Good evening\", \"Pleased to meet you.\"\n- **Informal:** \"Hello\", \"Hi\", \"Hey\", \"What's up?\", \"How are you doing?\"\n\n#### 2. Self-Introduction Formula\nTo introduce yourself, you use:\n- **\"My name is [Name].\"** (e.g., *My name is Sarah.*)\n- **\"I am from [Country/City].\"** (e.g., *I am from London.*)\n- **\"Nice to meet you!\"** is the customary response when meeting someone for the first time.",
+      "grammar_notes": "In English, the verb 'to be' changes with the subject pronoun: I am, You are, He/She/It is, We are, They are.",
+      "vocabulary": [
+        {
+          "id": "v-en-1-1",
+          "word": "Hello",
+          "translation": "A standard polite greeting",
+          "pronunciation": "/həˈloʊ/",
+          "example_sentence": "Hello, nice to meet you!",
+          "example_translation": "Used when meeting someone at any time of day."
+        },
+        {
+          "id": "v-en-1-2",
+          "word": "Good morning",
+          "translation": "Greeting used before 12:00 PM",
+          "pronunciation": "/ɡʊd ˈmɔːrnɪŋ/",
+          "example_sentence": "Good morning, class!",
+          "example_translation": "Formal morning greeting."
+        },
+        {
+          "id": "v-en-1-3",
+          "word": "Goodbye",
+          "translation": "Farewell expression",
+          "pronunciation": "/ɡʊdˈbaɪ/",
+          "example_sentence": "Goodbye, have a great evening!",
+          "example_translation": "Parting phrase."
+        },
+        {
+          "id": "v-en-1-4",
+          "word": "Please",
+          "translation": "Polite word used when asking",
+          "pronunciation": "/pliːz/",
+          "example_sentence": "Please come in.",
+          "example_translation": "Shows courtesy in requests."
+        },
+        {
+          "id": "v-en-1-5",
+          "word": "Thank you",
+          "translation": "Expression of gratitude",
+          "pronunciation": "/ˈθæŋk juː/",
+          "example_sentence": "Thank you for your help.",
+          "example_translation": "Appreciation phrase."
+        },
+        {
+          "id": "v-en-1-6",
+          "word": "Welcome",
+          "translation": "Cordial greeting or reply to thanks",
+          "pronunciation": "/ˈwɛlkəm/",
+          "example_sentence": "You are very welcome.",
+          "example_translation": "Standard reply to 'Thank you'."
+        },
+        {
+          "id": "v-en-1-7",
+          "word": "Name",
+          "translation": "A word by which a person is known",
+          "pronunciation": "/neɪm/",
+          "example_sentence": "What is your name?",
+          "example_translation": "Asking for someone's identity."
+        },
+        {
+          "id": "v-en-1-8",
+          "word": "Friend",
+          "translation": "A person with whom one has a bond of mutual affection",
+          "pronunciation": "/frɛnd/",
+          "example_sentence": "She is my best friend.",
+          "example_translation": "A companion."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-en-1-1",
+          "question_text": "What is the polite greeting used before midday (noon)?",
+          "explanation": "'Good morning' is specifically used from sunrise until 12:00 PM.",
+          "options": [
+            {
+              "id": "o-en-1-1-1",
+              "option_text": "Good morning",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-1-1-2",
+              "option_text": "Good night",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-1-3",
+              "option_text": "Good afternoon",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-1-4",
+              "option_text": "Goodbye",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-1-2",
+          "question_text": "Which sentence correctly introduces your name?",
+          "explanation": "'My name is...' is the standard grammatically correct phrase in English.",
+          "options": [
+            {
+              "id": "o-en-1-2-1",
+              "option_text": "My name is David.",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-1-2-2",
+              "option_text": "I name David.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-2-3",
+              "option_text": "Me is David.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-2-4",
+              "option_text": "Name is my David.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-1-3",
+          "question_text": "What is the standard polite reply to 'Thank you'?",
+          "explanation": "'You are welcome' or 'You're welcome' is the customary response.",
+          "options": [
+            {
+              "id": "o-en-1-3-1",
+              "option_text": "You are welcome.",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-1-3-2",
+              "option_text": "No thanks.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-3-3",
+              "option_text": "Please not.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-3-4",
+              "option_text": "Goodbye.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-1-4",
+          "question_text": "How do you ask someone how they are feeling?",
+          "explanation": "'How are you?' is the common question to inquire about well-being.",
+          "options": [
+            {
+              "id": "o-en-1-4-1",
+              "option_text": "How are you?",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-1-4-2",
+              "option_text": "Who are you?",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-4-3",
+              "option_text": "Where is you?",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-4-4",
+              "option_text": "What are you?",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-1-5",
+          "question_text": "Which pronoun pairs with 'are' in present tense?",
+          "explanation": "'You are', 'We are', and 'They are' use the plural/second-person form 'are'.",
+          "options": [
+            {
+              "id": "o-en-1-5-1",
+              "option_text": "You",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-1-5-2",
+              "option_text": "I",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-5-3",
+              "option_text": "He",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-1-5-4",
+              "option_text": "She",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-en-2",
+      "language_id": "lang-en",
+      "level_id": "lvl-a1",
+      "title": "Numbers, Colors & Everyday Essentials",
+      "description": "Count from 1 to 20, name basic colors, and describe everyday objects.",
+      "duration_minutes": 20,
+      "lesson_order": 2,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=D0Ajq682yrA",
+      "objectives": [
+        "Count numbers from one to twenty",
+        "Identify primary and secondary colors",
+        "Combine adjectives (colors) with nouns"
+      ],
+      "content": "### Counting and Describing the World\nIn English, descriptive words (adjectives like colors) always come **before** the noun they describe!\n\n#### Numbers 1 to 10:\n1 (One), 2 (Two), 3 (Three), 4 (Four), 5 (Five), 6 (Six), 7 (Seven), 8 (Eight), 9 (Nine), 10 (Ten).\n\n#### Colors:\n- **Red, Blue, Green, Yellow, Black, White, Orange, Purple.**\n\n#### Grammar Rule: Adjective + Noun\n- \"A **red** apple\" (Not: *an apple red*)\n- \"Two **blue** pens\"",
+      "grammar_notes": "Adjectives do not change for plural nouns in English. (e.g., 'one red car', 'three red cars').",
+      "vocabulary": [
+        {
+          "id": "v-en-2-1",
+          "word": "One",
+          "translation": "The number 1",
+          "pronunciation": "/wʌn/",
+          "example_sentence": "I have one book.",
+          "example_translation": "Singular count."
+        },
+        {
+          "id": "v-en-2-2",
+          "word": "Two",
+          "translation": "The number 2",
+          "pronunciation": "/tuː/",
+          "example_sentence": "Two coffees, please.",
+          "example_translation": "Quantity of two."
+        },
+        {
+          "id": "v-en-2-3",
+          "word": "Three",
+          "translation": "The number 3",
+          "pronunciation": "/θriː/",
+          "example_sentence": "There are three cats.",
+          "example_translation": "Quantity of three."
+        },
+        {
+          "id": "v-en-2-4",
+          "word": "Red",
+          "translation": "Color of blood or ruby",
+          "pronunciation": "/rɛd/",
+          "example_sentence": "The red car is fast.",
+          "example_translation": "Color adjective."
+        },
+        {
+          "id": "v-en-2-5",
+          "word": "Blue",
+          "translation": "Color of clear sky or ocean",
+          "pronunciation": "/bluː/",
+          "example_sentence": "The sky is blue today.",
+          "example_translation": "Color adjective."
+        },
+        {
+          "id": "v-en-2-6",
+          "word": "Green",
+          "translation": "Color of grass and leaves",
+          "pronunciation": "/ɡriːn/",
+          "example_sentence": "Trees have green leaves.",
+          "example_translation": "Color adjective."
+        },
+        {
+          "id": "v-en-2-7",
+          "word": "Book",
+          "translation": "A written or printed work",
+          "pronunciation": "/bʊk/",
+          "example_sentence": "Open your book to page ten.",
+          "example_translation": "Common noun."
+        },
+        {
+          "id": "v-en-2-8",
+          "word": "Pen",
+          "translation": "Writing instrument with ink",
+          "pronunciation": "/pɛn/",
+          "example_sentence": "Can I borrow your blue pen?",
+          "example_translation": "Common noun."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-en-2-1",
+          "question_text": "Where does the color adjective go in English?",
+          "explanation": "Adjectives always precede the noun in English (e.g. 'a blue sky').",
+          "options": [
+            {
+              "id": "o-en-2-1-1",
+              "option_text": "Before the noun (e.g., 'a blue car')",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-2-1-2",
+              "option_text": "After the noun (e.g., 'a car blue')",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-1-3",
+              "option_text": "At the end of the sentence only",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-1-4",
+              "option_text": "It does not matter",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-2-2",
+          "question_text": "What number follows 'Four'?",
+          "explanation": "The counting sequence is: One, Two, Three, Four, Five.",
+          "options": [
+            {
+              "id": "o-en-2-2-1",
+              "option_text": "Five",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-2-2-2",
+              "option_text": "Six",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-2-3",
+              "option_text": "Three",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-2-4",
+              "option_text": "Seven",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-2-3",
+          "question_text": "What color do you get when you mix Yellow and Blue?",
+          "explanation": "Yellow and Blue pigment combined creates Green.",
+          "options": [
+            {
+              "id": "o-en-2-3-1",
+              "option_text": "Green",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-2-3-2",
+              "option_text": "Purple",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-3-3",
+              "option_text": "Red",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-3-4",
+              "option_text": "Black",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-2-4",
+          "question_text": "Choose the correct phrase:",
+          "explanation": "Adjectives stay invariant (no -s) before plural nouns: 'two green apples'.",
+          "options": [
+            {
+              "id": "o-en-2-4-1",
+              "option_text": "Two green apples",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-2-4-2",
+              "option_text": "Two greens apples",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-4-3",
+              "option_text": "Two apples greens",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-4-4",
+              "option_text": "Apples two green",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-2-5",
+          "question_text": "How do you say '10' in English?",
+          "explanation": "10 is written and pronounced as 'Ten'.",
+          "options": [
+            {
+              "id": "o-en-2-5-1",
+              "option_text": "Ten",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-2-5-2",
+              "option_text": "Twelve",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-5-3",
+              "option_text": "Twenty",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-2-5-4",
+              "option_text": "Teen",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-en-3",
+      "language_id": "lang-en",
+      "level_id": "lvl-a1",
+      "title": "Common Vocabulary & Daily Objects",
+      "description": "Explore words for the home, classroom, food, and daily routines.",
+      "duration_minutes": 18,
+      "lesson_order": 3,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=HgkP_ZcKzls",
+      "objectives": [
+        "Name items around the house and workspace",
+        "Identify common food and drink items",
+        "Use articles 'a' vs 'an' correctly"
+      ],
+      "content": "### Naming Everyday Items & The Article Rule\nIn English, singular countable nouns require an article: **a** or **an**.\n\n#### The Rule for 'a' vs 'an':\n- Use **a** before words starting with a consonant sound: *a table, a cup, a house, a university*.\n- Use **an** before words starting with a vowel sound (a, e, i, o, u): *an apple, an egg, an orange, an hour*.",
+      "grammar_notes": "Focus on the vowel sound rather than just the written letter: 'an hour' (/aʊər/), 'a university' (/juːnɪvɜːrsɪti/).",
+      "vocabulary": [
+        {
+          "id": "v-en-3-1",
+          "word": "Table",
+          "translation": "A piece of furniture with a flat top",
+          "pronunciation": "/ˈteɪbəl/",
+          "example_sentence": "The coffee is on the table.",
+          "example_translation": "Household furniture."
+        },
+        {
+          "id": "v-en-3-2",
+          "word": "Chair",
+          "translation": "A seat for one person",
+          "pronunciation": "/tʃɛər/",
+          "example_sentence": "Please sit in this chair.",
+          "example_translation": "Seating furniture."
+        },
+        {
+          "id": "v-en-3-3",
+          "word": "Water",
+          "translation": "Essential clear liquid",
+          "pronunciation": "/ˈwɔːtər/",
+          "example_sentence": "Can I have a glass of water?",
+          "example_translation": "Beverage."
+        },
+        {
+          "id": "v-en-3-4",
+          "word": "Apple",
+          "translation": "A round fruit with red or green skin",
+          "pronunciation": "/ˈæpəl/",
+          "example_sentence": "An apple a day keeps the doctor away.",
+          "example_translation": "Fruit."
+        },
+        {
+          "id": "v-en-3-5",
+          "word": "Bread",
+          "translation": "Baked food made from flour",
+          "pronunciation": "/brɛd/",
+          "example_sentence": "We eat bread for breakfast.",
+          "example_translation": "Staple food."
+        },
+        {
+          "id": "v-en-3-6",
+          "word": "Door",
+          "translation": "A hinged barrier to enter a room",
+          "pronunciation": "/dɔːr/",
+          "example_sentence": "Please close the door.",
+          "example_translation": "Home feature."
+        },
+        {
+          "id": "v-en-3-7",
+          "word": "Window",
+          "translation": "An opening in a wall with glass",
+          "pronunciation": "/ˈwɪndoʊ/",
+          "example_sentence": "Open the window for fresh air.",
+          "example_translation": "Home feature."
+        },
+        {
+          "id": "v-en-3-8",
+          "word": "Phone",
+          "translation": "A mobile telephone device",
+          "pronunciation": "/foʊn/",
+          "example_sentence": "My phone is ringing.",
+          "example_translation": "Daily electronic."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-en-3-1",
+          "question_text": "Which article comes before 'apple'?",
+          "explanation": "'Apple' begins with the vowel sound /æ/, so 'an' is required.",
+          "options": [
+            {
+              "id": "o-en-3-1-1",
+              "option_text": "an",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-3-1-2",
+              "option_text": "a",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-1-3",
+              "option_text": "thee",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-1-4",
+              "option_text": "some",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-3-2",
+          "question_text": "Which article comes before 'table'?",
+          "explanation": "'Table' begins with the consonant sound /t/, so 'a' is required.",
+          "options": [
+            {
+              "id": "o-en-3-2-1",
+              "option_text": "a",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-3-2-2",
+              "option_text": "an",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-2-3",
+              "option_text": "at",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-2-4",
+              "option_text": "in",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-3-3",
+          "question_text": "What object do you open to look outside a room?",
+          "explanation": "A window is an opening with glass that allows you to see outside.",
+          "options": [
+            {
+              "id": "o-en-3-3-1",
+              "option_text": "Window",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-3-3-2",
+              "option_text": "Chair",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-3-3",
+              "option_text": "Bread",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-3-4",
+              "option_text": "Water",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-3-4",
+          "question_text": "Which word represents essential clear liquid drink?",
+          "explanation": "'Water' is the universal term for H2O drink.",
+          "options": [
+            {
+              "id": "o-en-3-4-1",
+              "option_text": "Water",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-3-4-2",
+              "option_text": "Bread",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-4-3",
+              "option_text": "Phone",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-4-4",
+              "option_text": "Door",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-3-5",
+          "question_text": "Complete the sentence: 'Please sit on the ___.'",
+          "explanation": "A chair is furniture designed for sitting.",
+          "options": [
+            {
+              "id": "o-en-3-5-1",
+              "option_text": "chair",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-3-5-2",
+              "option_text": "window",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-5-3",
+              "option_text": "bread",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-3-5-4",
+              "option_text": "water",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-en-4",
+      "language_id": "lang-en",
+      "level_id": "lvl-a1",
+      "title": "Basic Grammar & Sentence Structure",
+      "description": "Understand the Subject-Verb-Object (SVO) order and present simple verbs.",
+      "duration_minutes": 22,
+      "lesson_order": 4,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=k3_tw44QsZQ",
+      "objectives": [
+        "Master the Subject + Verb + Object word order",
+        "Conjugate simple present verbs with he/she/it (-s suffix)",
+        "Form simple negative sentences with 'do not' and 'does not'"
+      ],
+      "content": "### Subject + Verb + Object (SVO)\nStandard English declarative sentences follow the **SVO** pattern:\n- **Subject:** Who or what performs the action.\n- **Verb:** The action word.\n- **Object:** The receiver of the action.\n\nExample:\n- *Sarah (S) + reads (V) + books (O).*\n- *I (S) + drink (V) + tea (O).*\n\n#### 3rd Person Singular Rule (-s / -es)\nFor **He, She, It**, add an **-s** to the base verb:\n- *I speak* -> *He speak**s***\n- *They live* -> *She live**s***",
+      "grammar_notes": "To make negatives in present simple: use 'don't' (I/you/we/they) or 'doesn't' (he/she/it) + base verb.",
+      "vocabulary": [
+        {
+          "id": "v-en-4-1",
+          "word": "Speak",
+          "translation": "To say words or talk in a language",
+          "pronunciation": "/spiːk/",
+          "example_sentence": "I speak English and French.",
+          "example_translation": "Action verb."
+        },
+        {
+          "id": "v-en-4-2",
+          "word": "Read",
+          "translation": "To look at and comprehend written text",
+          "pronunciation": "/riːd/",
+          "example_sentence": "She reads every night.",
+          "example_translation": "Action verb."
+        },
+        {
+          "id": "v-en-4-3",
+          "word": "Write",
+          "translation": "To mark letters and words with a pen or keyboard",
+          "pronunciation": "/raɪt/",
+          "example_sentence": "I write emails every day.",
+          "example_translation": "Action verb."
+        },
+        {
+          "id": "v-en-4-4",
+          "word": "Eat",
+          "translation": "To consume food",
+          "pronunciation": "/iːt/",
+          "example_sentence": "We eat dinner at 7 PM.",
+          "example_translation": "Action verb."
+        },
+        {
+          "id": "v-en-4-5",
+          "word": "Drink",
+          "translation": "To swallow a liquid",
+          "pronunciation": "/drɪŋk/",
+          "example_sentence": "He drinks coffee in the morning.",
+          "example_translation": "Action verb."
+        },
+        {
+          "id": "v-en-4-6",
+          "word": "Live",
+          "translation": "To reside in a place",
+          "pronunciation": "/lɪv/",
+          "example_sentence": "They live in London.",
+          "example_translation": "State/action verb."
+        },
+        {
+          "id": "v-en-4-7",
+          "word": "Work",
+          "translation": "To do a job or task",
+          "pronunciation": "/wɜːrk/",
+          "example_sentence": "She works at a hospital.",
+          "example_translation": "Action verb."
+        },
+        {
+          "id": "v-en-4-8",
+          "word": "Learn",
+          "translation": "To acquire knowledge",
+          "pronunciation": "/lɜːrn/",
+          "example_sentence": "We learn new words today.",
+          "example_translation": "Educational verb."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-en-4-1",
+          "question_text": "What is the standard sentence word order in English?",
+          "explanation": "English follows Subject - Verb - Object (SVO).",
+          "options": [
+            {
+              "id": "o-en-4-1-1",
+              "option_text": "Subject + Verb + Object (SVO)",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-4-1-2",
+              "option_text": "Subject + Object + Verb (SOV)",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-1-3",
+              "option_text": "Verb + Subject + Object (VSO)",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-1-4",
+              "option_text": "Object + Verb + Subject (OVS)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-4-2",
+          "question_text": "Choose the correct sentence for 'She':",
+          "explanation": "Third person singular (he/she/it) requires the -s verb ending: 'She reads books.'",
+          "options": [
+            {
+              "id": "o-en-4-2-1",
+              "option_text": "She reads books.",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-4-2-2",
+              "option_text": "She read books.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-2-3",
+              "option_text": "She reading books.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-2-4",
+              "option_text": "She is read books.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-4-3",
+          "question_text": "Which negative sentence is grammatically correct?",
+          "explanation": "'He' takes 'does not' (doesn't) followed by the base verb 'drink'.",
+          "options": [
+            {
+              "id": "o-en-4-3-1",
+              "option_text": "He does not drink tea.",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-4-3-2",
+              "option_text": "He not drink tea.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-3-3",
+              "option_text": "He do not drinks tea.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-3-4",
+              "option_text": "He doesn't drinks tea.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-4-4",
+          "question_text": "Complete: 'They ___ in New York.'",
+          "explanation": "'They' pairs with the base plural verb form 'live'.",
+          "options": [
+            {
+              "id": "o-en-4-4-1",
+              "option_text": "live",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-4-4-2",
+              "option_text": "lives",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-4-3",
+              "option_text": "living",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-4-4",
+              "option_text": "to live",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-4-5",
+          "question_text": "Identify the object in: 'Michael plays guitar.'",
+          "explanation": "'guitar' receives the action of playing, so it is the grammatical object.",
+          "options": [
+            {
+              "id": "o-en-4-5-1",
+              "option_text": "guitar",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-4-5-2",
+              "option_text": "Michael",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-5-3",
+              "option_text": "plays",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-4-5-4",
+              "option_text": "There is no object",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-en-5",
+      "language_id": "lang-en",
+      "level_id": "lvl-a1",
+      "title": "Daily Conversations & Real Dialogues",
+      "description": "Practice real-life conversational dialogues for shopping, cafes, and directions.",
+      "duration_minutes": 20,
+      "lesson_order": 5,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=F_fQjI-HwH4",
+      "objectives": [
+        "Order food and drink at a cafe",
+        "Ask for prices and make simple purchases",
+        "Ask and give simple directions"
+      ],
+      "content": "### Putting It All Together: Real-World Conversations\nLet's look at common dialogues you will encounter in day-to-day life!\n\n#### ☕ At the Cafe:\n- **Customer:** \"Hello! I would like a coffee, please.\"\n- **Barista:** \"Sure! Small or large?\"\n- **Customer:** \"Small, with milk please.\"\n- **Barista:** \"That will be $3.50.\"\n- **Customer:** \"Here you go. Thank you!\"\n\n#### 🗺️ Asking for Directions:\n- \"Excuse me, where is the train station?\"\n- \"Go straight and turn right at the corner.\"",
+      "grammar_notes": "'I would like...' (contracted as 'I'd like...') is a polite and natural way to make orders and requests.",
+      "vocabulary": [
+        {
+          "id": "v-en-5-1",
+          "word": "Coffee",
+          "translation": "Hot brewed caffeinated drink",
+          "pronunciation": "/ˈkɔːfi/",
+          "example_sentence": "I drink black coffee.",
+          "example_translation": "Popular beverage."
+        },
+        {
+          "id": "v-en-5-2",
+          "word": "Price",
+          "translation": "The cost of an item",
+          "pronunciation": "/praɪs/",
+          "example_sentence": "What is the price of this shirt?",
+          "example_translation": "Shopping term."
+        },
+        {
+          "id": "v-en-5-3",
+          "word": "How much",
+          "translation": "Phrase used to ask for cost",
+          "pronunciation": "/haʊ mʌtʃ/",
+          "example_sentence": "How much is this ticket?",
+          "example_translation": "Inquiring about cost."
+        },
+        {
+          "id": "v-en-5-4",
+          "word": "Excuse me",
+          "translation": "Polite phrase to get attention",
+          "pronunciation": "/ɪkˈskjuːz miː/",
+          "example_sentence": "Excuse me, what time is it?",
+          "example_translation": "Polite opener."
+        },
+        {
+          "id": "v-en-5-5",
+          "word": "Straight",
+          "pronunciation": "/streɪt/",
+          "translation": "Continuing in one direction without turning",
+          "example_sentence": "Go straight ahead.",
+          "example_translation": "Direction."
+        },
+        {
+          "id": "v-en-5-6",
+          "word": "Right",
+          "translation": "Opposite of left",
+          "pronunciation": "/raɪt/",
+          "example_sentence": "Turn right at the traffic lights.",
+          "example_translation": "Direction."
+        },
+        {
+          "id": "v-en-5-7",
+          "word": "Left",
+          "translation": "Opposite of right",
+          "pronunciation": "/lɛft/",
+          "example_sentence": "The cafe is on the left.",
+          "example_translation": "Direction."
+        },
+        {
+          "id": "v-en-5-8",
+          "word": "Help",
+          "translation": "Assistance or support",
+          "pronunciation": "/hɛlp/",
+          "example_sentence": "Can you help me, please?",
+          "example_translation": "Request."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-en-5-1",
+          "question_text": "What is a polite way to order coffee?",
+          "explanation": "'I would like a coffee, please' is polite and standard.",
+          "options": [
+            {
+              "id": "o-en-5-1-1",
+              "option_text": "I would like a coffee, please.",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-5-1-2",
+              "option_text": "Give coffee now.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-1-3",
+              "option_text": "I take drink coffee.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-1-4",
+              "option_text": "Coffee is mine.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-5-2",
+          "question_text": "Which question asks for the cost of something?",
+          "explanation": "'How much is this?' is the universal question for asking prices.",
+          "options": [
+            {
+              "id": "o-en-5-2-1",
+              "option_text": "How much is this?",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-5-2-2",
+              "option_text": "How many are this?",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-2-3",
+              "option_text": "What where is this?",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-2-4",
+              "option_text": "Who has this?",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-5-3",
+          "question_text": "What polite phrase gets someone's attention respectfully?",
+          "explanation": "'Excuse me' is used to get someone's attention or apologize politely.",
+          "options": [
+            {
+              "id": "o-en-5-3-1",
+              "option_text": "Excuse me",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-5-3-2",
+              "option_text": "Listen to me",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-3-3",
+              "option_text": "Stop here",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-3-4",
+              "option_text": "Goodbye",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-5-4",
+          "question_text": "What is the opposite direction of 'Left'?",
+          "explanation": "'Right' is the opposite of 'Left'.",
+          "options": [
+            {
+              "id": "o-en-5-4-1",
+              "option_text": "Right",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-5-4-2",
+              "option_text": "Straight",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-4-3",
+              "option_text": "Behind",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-4-4",
+              "option_text": "Up",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-en-5-5",
+          "question_text": "How do you ask for assistance?",
+          "explanation": "'Can you help me, please?' is the standard polite request for aid.",
+          "options": [
+            {
+              "id": "o-en-5-5-1",
+              "option_text": "Can you help me, please?",
+              "is_correct": true
+            },
+            {
+              "id": "o-en-5-5-2",
+              "option_text": "You must help.",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-5-3",
+              "option_text": "Help is ready?",
+              "is_correct": false
+            },
+            {
+              "id": "o-en-5-5-4",
+              "option_text": "I help you now.",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-hi-1",
+      "language_id": "lang-hi",
+      "level_id": "lvl-a1",
+      "title": "अभिवादन और परिचय (Greetings & Introductions)",
+      "description": "Learn traditional Hindi greetings, how to introduce yourself respectfully, and polite expressions.",
+      "duration_minutes": 15,
+      "lesson_order": 1,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=J3gL07H9-6Q",
+      "objectives": [
+        "Use 'नमस्ते' (Namaste) and other polite greetings",
+        "Introduce yourself: मेरा नाम [Name] है (My name is...)",
+        "Ask 'आप कैसे हैं?' (How are you?) with respect"
+      ],
+      "content": "### हिन्दी में अभिवादन (Greetings in Hindi)\nहिन्दी में अभिवादन बहुत आदरपूर्ण और मधुर होते हैं।\n\n#### 1. नमस्ते (Namaste)\n**नमस्ते** या **नमस्कार** भारत का सबसे प्रसिद्ध अभिवादन है। दोनों हाथों को जोड़कर यह शब्द कहा जाता है। यह दिन के किसी भी समय प्रयोग किया जा सकता है।\n\n#### 2. अपना परिचय देना (Self Introduction)\n- **मेरा नाम रोहन है।** (My name is Rohan.)\n- **मैं भारत से हूँ।** (I am from India.)\n- **आपसे मिलकर खुशी हुई।** (Pleased to meet you.)\n\n#### 3. हालचाल पूछना (Asking How Someone Is)\n- बड़ों या अजनबियों से: **\"आप कैसे हैं?\"** (Aap kaise hain?) - आदरपूर्ण\n- दोस्तों से: **\"तुम कैसे हो?\"** (Tum kaise ho?)",
+      "grammar_notes": "हिन्दी में सर्वनाम (Pronouns) तीन स्तर के होते हैं: 'आप' (आदरणीय/Formal), 'तुम' (अनौपचारिक/Informal), और 'तू' (घनिष्ठ/Intimate). शुरुआती स्तर पर हमेशा 'आप' का प्रयोग सर्वोत्तम माना जाता है।",
+      "vocabulary": [
+        {
+          "id": "v-hi-1-1",
+          "word": "नमस्ते",
+          "translation": "Hello / Greetings",
+          "pronunciation": "Namaste",
+          "example_sentence": "नमस्ते! आप कैसे हैं?",
+          "example_translation": "Hello! How are you?"
+        },
+        {
+          "id": "v-hi-1-2",
+          "word": "धन्यवाद",
+          "translation": "Thank you",
+          "pronunciation": "Dhanyavaad",
+          "example_sentence": "आपकी मदद के लिए धन्यवाद।",
+          "example_translation": "Thank you for your help."
+        },
+        {
+          "id": "v-hi-1-3",
+          "word": "अलविदा",
+          "translation": "Goodbye",
+          "pronunciation": "Alvida",
+          "example_sentence": "अलविदा, कल मिलते हैं।",
+          "example_translation": "Goodbye, see you tomorrow."
+        },
+        {
+          "id": "v-hi-1-4",
+          "word": "कृपया",
+          "translation": "Please",
+          "pronunciation": "Kripya",
+          "example_sentence": "कृपया यहाँ बैठिए।",
+          "example_translation": "Please sit here."
+        },
+        {
+          "id": "v-hi-1-5",
+          "word": "नाम",
+          "translation": "Name",
+          "pronunciation": "Naam",
+          "example_sentence": "आपका नाम क्या है?",
+          "example_translation": "What is your name?"
+        },
+        {
+          "id": "v-hi-1-6",
+          "word": "हाँ",
+          "translation": "Yes",
+          "pronunciation": "Haan",
+          "example_sentence": "हाँ, मैं सीख रहा हूँ।",
+          "example_translation": "Yes, I am learning."
+        },
+        {
+          "id": "v-hi-1-7",
+          "word": "नहीं",
+          "translation": "No / Not",
+          "pronunciation": "Nahin",
+          "example_sentence": "नहीं, धन्यवाद।",
+          "example_translation": "No, thank you."
+        },
+        {
+          "id": "v-hi-1-8",
+          "word": "मित्र / दोस्त",
+          "translation": "Friend",
+          "pronunciation": "Mitra / Dost",
+          "example_sentence": "वह मेरा अच्छा दोस्त है।",
+          "example_translation": "He is my good friend."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-hi-1-1",
+          "question_text": "हिन्दी में सबसे आम और आदरपूर्ण अभिवादन कौन सा है?",
+          "explanation": "'नमस्ते' (Namaste) हिन्दी का सार्वभौमिक और सम्मानजनक अभिवादन है।",
+          "options": [
+            {
+              "id": "o-hi-1-1-1",
+              "option_text": "नमस्ते (Namaste)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-1-1-2",
+              "option_text": "अलविदा (Alvida)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-1-3",
+              "option_text": "धन्यवाद (Dhanyavaad)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-1-4",
+              "option_text": "कृपया (Kripya)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-1-2",
+          "question_text": "'My name is Amit' का सही हिन्दी अनुवाद क्या है?",
+          "explanation": "'मेरा नाम अमित है।' सही वाक्य रचना है।",
+          "options": [
+            {
+              "id": "o-hi-1-2-1",
+              "option_text": "मेरा नाम अमित है।",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-1-2-2",
+              "option_text": "मैं नाम अमित।",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-2-3",
+              "option_text": "अमित मेरा है।",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-2-4",
+              "option_text": "नाम है मेरा अमित।",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-1-3",
+          "question_text": "'Thank you' को हिन्दी में क्या कहते हैं?",
+          "explanation": "'धन्यवाद' (Dhanyavaad) या 'शुक्रिया' कृतज्ञता व्यक्त करने के लिए बोला जाता है।",
+          "options": [
+            {
+              "id": "o-hi-1-3-1",
+              "option_text": "धन्यवाद (Dhanyavaad)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-1-3-2",
+              "option_text": "कृपया (Kripya)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-3-3",
+              "option_text": "नमस्ते (Namaste)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-3-4",
+              "option_text": "हाँ (Haan)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-1-4",
+          "question_text": "बड़ों से आदरपूर्वक हालचाल पूछने के लिए कौन सा वाक्य उपयुक्त है?",
+          "explanation": "'आप कैसे हैं?' आदरसूचक सर्वनाम 'आप' के साथ प्रयोग होता है।",
+          "options": [
+            {
+              "id": "o-hi-1-4-1",
+              "option_text": "आप कैसे हैं?",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-1-4-2",
+              "option_text": "तू कैसा है?",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-4-3",
+              "option_text": "कहाँ है तू?",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-4-4",
+              "option_text": "क्या है?",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-1-5",
+          "question_text": "'Please' के लिए हिन्दी शब्द क्या है?",
+          "explanation": "'कृपया' (Kripya) विनम्रता से अनुरोध करने के लिए प्रयुक्त होता है।",
+          "options": [
+            {
+              "id": "o-hi-1-5-1",
+              "option_text": "कृपया (Kripya)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-1-5-2",
+              "option_text": "नहीं (Nahin)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-5-3",
+              "option_text": "अलविदा (Alvida)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-1-5-4",
+              "option_text": "दोस्त (Dost)",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-hi-2",
+      "language_id": "lang-hi",
+      "level_id": "lvl-a1",
+      "title": "गिनती और रंग (Numbers & Colors in Hindi)",
+      "description": "Learn to count from 1 to 10 in Hindi and identify vibrant colors.",
+      "duration_minutes": 20,
+      "lesson_order": 2,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=sK3pTfUvZkg",
+      "objectives": [
+        "Count numbers from १ (एक) to १० (दस)",
+        "Name common colors in Hindi",
+        "Describe objects using color adjectives"
+      ],
+      "content": "### हिन्दी में गिनती (१ से १०)\n- **१ - एक (Ek)**\n- **२ - दो (Do)**\n- **३ - तीन (Teen)**\n- **४ - चार (Chaar)**\n- **५ - पाँच (Paanch)**\n- **६ - छह (Chhah)**\n- **७ - सात (Saat)**\n- **८ - आठ (Aath)**\n- **९ - नौ (Nau)**\n- **१० - दस (Das)**\n\n### प्रमुख रंग (Major Colors)\n- **लाल (Laal)** - Red\n- **नीला (Neela)** - Blue\n- **हरा (Hara)** - Green\n- **पीला (Peela)** - Yellow\n- **सफेद (Safed)** - White\n- **काला (Kaala)** - Black",
+      "grammar_notes": "हिन्दी में विशेषण (Adjectives) संज्ञा के लिंग और वचन के अनुसार बदलते हैं। जैसे: 'पीला फूल' (पुल्लिंग) लेकिन 'पीली साड़ी' (स्त्रीलिंग)।",
+      "vocabulary": [
+        {
+          "id": "v-hi-2-1",
+          "word": "एक",
+          "translation": "One (1)",
+          "pronunciation": "Ek",
+          "example_sentence": "मेरे पास एक किताब है।",
+          "example_translation": "I have one book."
+        },
+        {
+          "id": "v-hi-2-2",
+          "word": "दो",
+          "translation": "Two (2)",
+          "pronunciation": "Do",
+          "example_sentence": "दो कप चाय दीजिए।",
+          "example_translation": "Please give two cups of tea."
+        },
+        {
+          "id": "v-hi-2-3",
+          "word": "पाँच",
+          "translation": "Five (5)",
+          "pronunciation": "Paanch",
+          "example_sentence": "हाथ में पाँच उँगलियाँ होती हैं।",
+          "example_translation": "There are five fingers on a hand."
+        },
+        {
+          "id": "v-hi-2-4",
+          "word": "लाल",
+          "translation": "Red",
+          "pronunciation": "Laal",
+          "example_sentence": "यह लाल सेब मीठा है।",
+          "example_translation": "This red apple is sweet."
+        },
+        {
+          "id": "v-hi-2-5",
+          "word": "नीला",
+          "translation": "Blue",
+          "pronunciation": "Neela",
+          "example_sentence": "आसमान नीला है।",
+          "example_translation": "The sky is blue."
+        },
+        {
+          "id": "v-hi-2-6",
+          "word": "हरा",
+          "translation": "Green",
+          "pronunciation": "Hara",
+          "example_sentence": "घास हरी है।",
+          "example_translation": "The grass is green."
+        },
+        {
+          "id": "v-hi-2-7",
+          "word": "सफेद",
+          "translation": "White",
+          "pronunciation": "Safed",
+          "example_sentence": "दूध सफेद होता है।",
+          "example_translation": "Milk is white."
+        },
+        {
+          "id": "v-hi-2-8",
+          "word": "काला",
+          "translation": "Black",
+          "pronunciation": "Kaala",
+          "example_sentence": "रात का रंग काला होता है।",
+          "example_translation": "The color of night is black."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-hi-2-1",
+          "question_text": "संख्या '3' को हिन्दी में क्या कहते हैं?",
+          "explanation": "'तीन' (Teen) संख्या 3 को दर्शाता है।",
+          "options": [
+            {
+              "id": "o-hi-2-1-1",
+              "option_text": "तीन (Teen)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-2-1-2",
+              "option_text": "एक (Ek)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-1-3",
+              "option_text": "चार (Chaar)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-1-4",
+              "option_text": "सात (Saat)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-2-2",
+          "question_text": "'Red' रंग को हिन्दी में क्या कहते हैं?",
+          "explanation": "'लाल' (Laal) का अर्थ Red होता है।",
+          "options": [
+            {
+              "id": "o-hi-2-2-1",
+              "option_text": "लाल (Laal)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-2-2-2",
+              "option_text": "नीला (Neela)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-2-3",
+              "option_text": "हरा (Hara)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-2-4",
+              "option_text": "पीला (Peela)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-2-3",
+          "question_text": "संख्या '10' का हिन्दी शब्द चुनें:",
+          "explanation": "'दस' (Das) संख्या 10 का सही शब्द है।",
+          "options": [
+            {
+              "id": "o-hi-2-3-1",
+              "option_text": "दस (Das)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-2-3-2",
+              "option_text": "दो (Do)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-3-3",
+              "option_text": "पाँच (Paanch)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-3-4",
+              "option_text": "नौ (Nau)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-2-4",
+          "question_text": "'आसमान नीला है' में 'नीला' किस रंग को दर्शाता है?",
+          "explanation": "'नीला' (Neela) का अर्थ Blue होता है।",
+          "options": [
+            {
+              "id": "o-hi-2-4-1",
+              "option_text": "Blue",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-2-4-2",
+              "option_text": "Green",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-4-3",
+              "option_text": "Yellow",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-4-4",
+              "option_text": "Black",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-2-5",
+          "question_text": "'दूध का रंग ___ होता है।' (खाली स्थान भरें):",
+          "explanation": "दूध का रंग सफेद (White) होता है।",
+          "options": [
+            {
+              "id": "o-hi-2-5-1",
+              "option_text": "सफेद (Safed)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-2-5-2",
+              "option_text": "काला (Kaala)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-5-3",
+              "option_text": "हरा (Hara)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-2-5-4",
+              "option_text": "लाल (Laal)",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-hi-3",
+      "language_id": "lang-hi",
+      "level_id": "lvl-a1",
+      "title": "दैनिक वस्तुएँ और घर (Everyday Objects & Home)",
+      "description": "Learn essential vocabulary for items in the home, kitchen, and daily life.",
+      "duration_minutes": 18,
+      "lesson_order": 3,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=r3Z9JvL_L0M",
+      "objectives": [
+        "Identify common household items",
+        "Learn basic food and drink vocabulary",
+        "Understand gender of nouns (पुल्लिंग और स्त्रीलिंग)"
+      ],
+      "content": "### घर और दैनिक जीवन के शब्द (Household Vocabulary)\nहिन्दी में प्रत्येक संज्ञा (Noun) का एक लिंग होता है: या तो पुल्लिंग (Masculine) या स्त्रीलिंग (Feminine)।\n\n#### महत्वपूर्ण वस्तुएँ:\n- **घर (Ghar)** - House (पुल्लिंग)\n- **किताब (Kitaab)** - Book (स्त्रीलिंग)\n- **पानी (Paani)** - Water (पुल्लिंग)\n- **रोटी (Roti)** - Bread/Flatbread (स्त्रीलिंग)\n- **चाय (Chai)** - Tea (स्त्रीलिंग)\n- **कमरा (Kamra)** - Room (पुल्लिंग)",
+      "grammar_notes": "सामान्य नियम: अधिकांश 'आ' पर समाप्त होने वाले शब्द पुल्लिंग होते हैं (कमरा, लड़का) और 'ई' पर समाप्त होने वाले स्त्रीलिंग (लड़की, चाय, रोटी)।",
+      "vocabulary": [
+        {
+          "id": "v-hi-3-1",
+          "word": "घर",
+          "translation": "House / Home",
+          "pronunciation": "Ghar",
+          "example_sentence": "यह मेरा घर है।",
+          "example_translation": "This is my house."
+        },
+        {
+          "id": "v-hi-3-2",
+          "word": "किताब",
+          "translation": "Book",
+          "pronunciation": "Kitaab",
+          "example_sentence": "मैं एक अच्छी किताब पढ़ रहा हूँ।",
+          "example_translation": "I am reading a good book."
+        },
+        {
+          "id": "v-hi-3-3",
+          "word": "पानी",
+          "translation": "Water",
+          "pronunciation": "Paani",
+          "example_sentence": "मुझे ठंडा पानी चाहिए।",
+          "example_translation": "I need cold water."
+        },
+        {
+          "id": "v-hi-3-4",
+          "word": "चाय",
+          "translation": "Tea",
+          "pronunciation": "Chai",
+          "example_sentence": "गरम चाय पीजिए।",
+          "example_translation": "Drink hot tea."
+        },
+        {
+          "id": "v-hi-3-5",
+          "word": "दरवाज़ा",
+          "translation": "Door",
+          "pronunciation": "Darwaaza",
+          "example_sentence": "दरवाज़ा बंद कीजिए।",
+          "example_translation": "Please close the door."
+        },
+        {
+          "id": "v-hi-3-6",
+          "word": "खिड़की",
+          "translation": "Window",
+          "pronunciation": "Khidki",
+          "example_sentence": "खिड़की खोलिए।",
+          "example_translation": "Open the window."
+        },
+        {
+          "id": "v-hi-3-7",
+          "word": "मेज़",
+          "translation": "Table",
+          "pronunciation": "Mez",
+          "example_sentence": "मेज़ पर फल रखे हैं।",
+          "example_translation": "Fruits are kept on the table."
+        },
+        {
+          "id": "v-hi-3-8",
+          "word": "रोटी",
+          "translation": "Bread / Roti",
+          "pronunciation": "Roti",
+          "example_sentence": "रोटी बहुत ताज़ा है।",
+          "example_translation": "The roti is very fresh."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-hi-3-1",
+          "question_text": "'Water' को हिन्दी में क्या कहते हैं?",
+          "explanation": "'पानी' (Paani) का अर्थ Water होता है।",
+          "options": [
+            {
+              "id": "o-hi-3-1-1",
+              "option_text": "पानी (Paani)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-3-1-2",
+              "option_text": "चाय (Chai)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-1-3",
+              "option_text": "किताब (Kitaab)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-1-4",
+              "option_text": "घर (Ghar)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-3-2",
+          "question_text": "'Book' का सही हिन्दी शब्द क्या है?",
+          "explanation": "'किताब' या 'पुस्तक' Book का सही हिन्दी शब्द है।",
+          "options": [
+            {
+              "id": "o-hi-3-2-1",
+              "option_text": "किताब (Kitaab)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-3-2-2",
+              "option_text": "मेज़ (Mez)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-2-3",
+              "option_text": "दरवाज़ा (Darwaaza)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-2-4",
+              "option_text": "खिड़की (Khidki)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-3-3",
+          "question_text": "'यह मेरा ___ है।' (House के लिए सही शब्द चुनें):",
+          "explanation": "'घर' (Ghar) का अर्थ House होता है।",
+          "options": [
+            {
+              "id": "o-hi-3-3-1",
+              "option_text": "घर (Ghar)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-3-3-2",
+              "option_text": "रोटी (Roti)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-3-3",
+              "option_text": "पानी (Paani)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-3-4",
+              "option_text": "चाय (Chai)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-3-4",
+          "question_text": "'Window' के लिए हिन्दी शब्द क्या है?",
+          "explanation": "'खिड़की' (Khidki) का अर्थ Window होता है।",
+          "options": [
+            {
+              "id": "o-hi-3-4-1",
+              "option_text": "खिड़की (Khidki)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-3-4-2",
+              "option_text": "दरवाज़ा (Darwaaza)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-4-3",
+              "option_text": "मेज़ (Mez)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-4-4",
+              "option_text": "कमरा (Kamra)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-3-5",
+          "question_text": "'Door' के लिए सही हिन्दी शब्द पहचानें:",
+          "explanation": "'दरवाज़ा' (Darwaaza) का अर्थ Door होता है।",
+          "options": [
+            {
+              "id": "o-hi-3-3-1",
+              "option_text": "दरवाज़ा (Darwaaza)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-3-3-2",
+              "option_text": "खिड़की (Khidki)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-3-3",
+              "option_text": "मेज़ (Mez)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-3-3-4",
+              "option_text": "किताब (Kitaab)",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-hi-4",
+      "language_id": "lang-hi",
+      "level_id": "lvl-a1",
+      "title": "वाक्य संरचना और बुनियादी व्याकरण (SOV Sentence Structure)",
+      "description": "Master Hindi SOV (Subject-Object-Verb) word order and verb conjugations.",
+      "duration_minutes": 22,
+      "lesson_order": 4,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=5U9Yw4_P008",
+      "objectives": [
+        "Understand Subject-Object-Verb (SOV) structure",
+        "Use 'है' (is), 'हूँ' (am), and 'हैं' (are)",
+        "Conjugate present tense verbs in masculine & feminine"
+      ],
+      "content": "### हिन्दी वाक्य संरचना (SOV Pattern)\nअंग्रेजी (SVO) के विपरीत, हिन्दी में **क्रिया (Verb) हमेशा वाक्य के अंत में आती है**!\n\n#### संरचना: कर्ता (Subject) + कर्म (Object) + क्रिया (Verb)\n- **अंग्रेजी:** I (S) + read (V) + a book (O).\n- **हिन्दी:** मैं (S) + किताब (O) + पढ़ता हूँ (V)।\n\n#### उदाहरण:\n- **वह (S) + पानी (O) + पीता है (V)।** (He drinks water.)\n- **सीता (S) + हिन्दी (O) + सीखती है (V)।** (Sita learns Hindi.)",
+      "grammar_notes": "क्रिया के अंत में: पुरुष के लिए '-ता है' (पढ़ता है) और महिला के लिए '-ती है' (पढ़ती है) लगता है। बहुवचन या सम्मान के लिए '-ते हैं' (पढ़ते हैं) का प्रयोग होता है।",
+      "vocabulary": [
+        {
+          "id": "v-hi-4-1",
+          "word": "पढ़ना",
+          "translation": "To read / study",
+          "pronunciation": "Padhna",
+          "example_sentence": "मैं रोज़ पढ़ता हूँ।",
+          "example_translation": "I study every day."
+        },
+        {
+          "id": "v-hi-4-2",
+          "word": "लिखना",
+          "translation": "To write",
+          "pronunciation": "Likhna",
+          "example_sentence": "वह पत्र लिखती है।",
+          "example_translation": "She writes a letter."
+        },
+        {
+          "id": "v-hi-4-3",
+          "word": "बोलना",
+          "translation": "To speak",
+          "pronunciation": "Bolna",
+          "example_sentence": "हम हिन्दी बोलते हैं।",
+          "example_translation": "We speak Hindi."
+        },
+        {
+          "id": "v-hi-4-4",
+          "word": "खाना",
+          "translation": "To eat / Food",
+          "pronunciation": "Khaana",
+          "example_sentence": "हम खाना खाते हैं।",
+          "example_translation": "We eat food."
+        },
+        {
+          "id": "v-hi-4-5",
+          "word": "पीना",
+          "translation": "To drink",
+          "pronunciation": "Peena",
+          "example_sentence": "वह दूध पीता है।",
+          "example_translation": "He drinks milk."
+        },
+        {
+          "id": "v-hi-4-6",
+          "word": "जाना",
+          "translation": "To go",
+          "pronunciation": "Jaana",
+          "example_sentence": "मैं स्कूल जाता हूँ।",
+          "example_translation": "I go to school."
+        },
+        {
+          "id": "v-hi-4-7",
+          "word": "आना",
+          "translation": "To come",
+          "pronunciation": "Aana",
+          "example_sentence": "वे घर आते हैं।",
+          "example_translation": "They come home."
+        },
+        {
+          "id": "v-hi-4-8",
+          "word": "सीखना",
+          "translation": "To learn",
+          "pronunciation": "Seekhna",
+          "example_sentence": "आप भाषा सीखते हैं।",
+          "example_translation": "You learn language."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-hi-4-1",
+          "question_text": "हिन्दी में सामान्य वाक्य का सही क्रम क्या है?",
+          "explanation": "हिन्दी में वाक्य क्रम कर्ता + कर्म + क्रिया (Subject + Object + Verb - SOV) होता है।",
+          "options": [
+            {
+              "id": "o-hi-4-1-1",
+              "option_text": "कर्ता + कर्म + क्रिया (SOV)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-4-1-2",
+              "option_text": "कर्ता + क्रिया + कर्म (SVO)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-1-3",
+              "option_text": "क्रिया + कर्ता + कर्म (VSO)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-1-4",
+              "option_text": "कर्म + क्रिया + कर्ता (OVS)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-4-2",
+          "question_text": "'मैं चाय ___ हूँ।' (पुल्लिंग वाक्य पूरा करें):",
+          "explanation": "पुल्लिंग एकवचन 'मैं' के साथ 'पीता' का प्रयोग होगा।",
+          "options": [
+            {
+              "id": "o-hi-4-2-1",
+              "option_text": "पीता",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-4-2-2",
+              "option_text": "पीती",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-2-3",
+              "option_text": "पीते",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-2-4",
+              "option_text": "पीना",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-4-3",
+          "question_text": "'She speaks Hindi' का सही हिन्दी अनुवाद क्या है?",
+          "explanation": "स्त्रीलिंग के लिए क्रिया 'बोलती है' बनेगी: 'वह हिन्दी बोलती है।'",
+          "options": [
+            {
+              "id": "o-hi-4-3-1",
+              "option_text": "वह हिन्दी बोलती है।",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-4-3-2",
+              "option_text": "वह हिन्दी बोलता है।",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-3-3",
+              "option_text": "वह बोलती हिन्दी।",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-3-4",
+              "option_text": "हिन्दी वह बोलती है।",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-4-4",
+          "question_text": "'मैं' (I) के साथ वर्तमान काल में कौन सी सहायक क्रिया लगती है?",
+          "explanation": "'मैं' के साथ हमेशा 'हूँ' (Hoon) लगता है।",
+          "options": [
+            {
+              "id": "o-hi-4-4-1",
+              "option_text": "हूँ (Hoon)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-4-4-2",
+              "option_text": "है (Hai)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-4-3",
+              "option_text": "हैं (Hain)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-4-4",
+              "option_text": "हो (Ho)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-4-5",
+          "question_text": "'हम किताब ___ हैं।' (बहुवचन वाक्य पूरा करें):",
+          "explanation": "'हम' (We) बहुवचन है, इसलिए 'पढ़ते' क्रिया रूप आएगा।",
+          "options": [
+            {
+              "id": "o-hi-4-5-1",
+              "option_text": "पढ़ते",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-4-5-2",
+              "option_text": "पढ़ता",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-5-3",
+              "option_text": "पढ़ती",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-4-5-4",
+              "option_text": "पढ़",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-hi-5",
+      "language_id": "lang-hi",
+      "level_id": "lvl-a1",
+      "title": "दैनिक बातचीत और बाज़ार (Daily Conversations & Shopping)",
+      "description": "Learn how to shop in a market, ask for prices, and talk with locals.",
+      "duration_minutes": 20,
+      "lesson_order": 5,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=Z_kU7dI_t28",
+      "objectives": [
+        "Ask 'यह कितने का है?' (How much is this?)",
+        "Interact politely with shopkeepers and locals",
+        "Understand basic directional phrases"
+      ],
+      "content": "### बाज़ार में बातचीत (At the Market)\nभारत में बाज़ार में खरीदारी करते समय विनम्र बातचीत बहुत उपयोगी होती है।\n\n#### 🛍️ संवाद (Dialogue):\n- **ग्राहक (Customer):** \"नमस्ते भैया! यह सेब कितने का है?\"\n- **दुकानदार (Shopkeeper):** \"नमस्ते जी! यह सेब १०० रुपये किलो है।\"\n- **ग्राहक:** \"कृपया एक किलो सेब दे दीजिए।\"\n- **दुकानदार:** \"यह लीजिए, और कुछ चाहिए?\"\n- **ग्राहक:** \"नहीं, धन्यवाद!\"\n\n#### 🧭 रास्ता पूछना (Asking Directions):\n- **\"स्टेशन कहाँ है?\"** (Where is the station?)\n- **\"सीधे जाइए और फिर दाहिने मुड़िए।\"** (Go straight and then turn right.)",
+      "grammar_notes": "'कितने का है?' (Kitne ka hai?) का उपयोग वस्तु की कीमत पूछने के लिए किया जाता है।",
+      "vocabulary": [
+        {
+          "id": "v-hi-5-1",
+          "word": "कितना / कितने",
+          "translation": "How much / How many",
+          "pronunciation": "Kitna / Kitne",
+          "example_sentence": "यह कितने का है?",
+          "example_translation": "How much does this cost?"
+        },
+        {
+          "id": "v-hi-5-2",
+          "word": "रुपये",
+          "translation": "Rupees (Currency)",
+          "pronunciation": "Rupaye",
+          "example_sentence": "यह पचास रुपये का है।",
+          "example_translation": "This is for fifty rupees."
+        },
+        {
+          "id": "v-hi-5-3",
+          "word": "दुकान",
+          "translation": "Shop / Store",
+          "pronunciation": "Dukaan",
+          "example_sentence": "दुकान खुली है।",
+          "example_translation": "The shop is open."
+        },
+        {
+          "id": "v-hi-5-4",
+          "word": "कहाँ",
+          "translation": "Where",
+          "pronunciation": "Kahaan",
+          "example_sentence": "होटल कहाँ है?",
+          "example_translation": "Where is the hotel?"
+        },
+        {
+          "id": "v-hi-5-5",
+          "word": "सीधे",
+          "translation": "Straight",
+          "pronunciation": "Seedhe",
+          "example_sentence": "सीधे आगे बढ़िए।",
+          "example_translation": "Go straight ahead."
+        },
+        {
+          "id": "v-hi-5-6",
+          "word": "दाहिने",
+          "translation": "Right (Direction)",
+          "pronunciation": "Daahine",
+          "example_sentence": "दाहिने मुड़िए।",
+          "example_translation": "Turn right."
+        },
+        {
+          "id": "v-hi-5-7",
+          "word": "बाएँ",
+          "translation": "Left (Direction)",
+          "pronunciation": "Bayein",
+          "example_sentence": "बाएँ तरफ घर है।",
+          "example_translation": "The house is on the left side."
+        },
+        {
+          "id": "v-hi-5-8",
+          "word": "मदद",
+          "translation": "Help / Assistance",
+          "pronunciation": "Madad",
+          "example_sentence": "क्या आप मेरी मदद कर सकते हैं?",
+          "example_translation": "Can you help me?"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-hi-5-1",
+          "question_text": "किसी वस्तु की कीमत पूछने के लिए कौन सा प्रश्न सही है?",
+          "explanation": "'यह कितने का है?' (How much is this?) कीमत पूछने का सही तरीका है।",
+          "options": [
+            {
+              "id": "o-hi-5-1-1",
+              "option_text": "यह कितने का है?",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-5-1-2",
+              "option_text": "यह कहाँ का है?",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-1-3",
+              "option_text": "यह कब का है?",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-1-4",
+              "option_text": "यह क्यों का है?",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-5-2",
+          "question_text": "'Where is the hotel?' का सही अनुवाद क्या है?",
+          "explanation": "'होटल कहाँ है?' सही प्रश्नवाचक वाक्य है।",
+          "options": [
+            {
+              "id": "o-hi-5-2-1",
+              "option_text": "होटल कहाँ है?",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-5-2-2",
+              "option_text": "होटल क्या है?",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-2-3",
+              "option_text": "होटल क्यों है?",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-2-4",
+              "option_text": "होटल कैसे है?",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-5-3",
+          "question_text": "'Right turn' के लिए हिन्दी में क्या कहते हैं?",
+          "explanation": "'दाहिने मुड़िए' का अर्थ Turn right होता है।",
+          "options": [
+            {
+              "id": "o-hi-5-3-1",
+              "option_text": "दाहिने मुड़िए",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-5-3-2",
+              "option_text": "बाएँ मुड़िए",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-3-3",
+              "option_text": "सीधे चलिए",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-3-4",
+              "option_text": "पीछे हटिए",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-5-4",
+          "question_text": "'Help' का हिन्दी पर्याय क्या है?",
+          "explanation": "'मदद' या 'सहायता' Help का सही हिन्दी शब्द है।",
+          "options": [
+            {
+              "id": "o-hi-5-4-1",
+              "option_text": "मदद (Madad)",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-5-4-2",
+              "option_text": "दुकान (Dukaan)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-4-3",
+              "option_text": "रुपये (Rupaye)",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-4-4",
+              "option_text": "रास्ता (Raasta)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-hi-5-5",
+          "question_text": "'सीधे जाइए' का अंग्रेजी अर्थ क्या है?",
+          "explanation": "'सीधे जाइए' means 'Go straight'.",
+          "options": [
+            {
+              "id": "o-hi-5-5-1",
+              "option_text": "Go straight",
+              "is_correct": true
+            },
+            {
+              "id": "o-hi-5-5-2",
+              "option_text": "Turn left",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-5-3",
+              "option_text": "Stop here",
+              "is_correct": false
+            },
+            {
+              "id": "o-hi-5-5-4",
+              "option_text": "Turn right",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-fr-1",
+      "language_id": "lang-fr",
+      "level_id": "lvl-a1",
+      "title": "Les Salutations & Présentations (Greetings & Introductions)",
+      "description": "Learn how to say hello, introduce yourself, and master French polite etiquette.",
+      "duration_minutes": 15,
+      "lesson_order": 1,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=hd0_GZHHWeE",
+      "objectives": [
+        "Master greetings: Bonjour, Bonsoir, Salut",
+        "Introduce yourself using 'Je m'appelle...'",
+        "Ask 'Comment allez-vous ?' (formal) vs 'Comment ça va ?' (informal)"
+      ],
+      "content": "### Bienvenue au Français !\nIn French culture, greeting people whenever you enter a shop, cafe, or meeting is essential etiquette.\n\n#### 1. Common Greetings\n- **Bonjour:** \"Hello / Good morning\" (used during the day).\n- **Bonsoir:** \"Good evening\" (used after sunset).\n- **Salut:** \"Hi / Bye\" (informal, used among close friends).\n\n#### 2. Introducing Yourself\n- **\"Je m'appelle Pierre.\"** (My name is Pierre.)\n- **\"Je suis enchanté(e).\"** (Delighted / Nice to meet you.)\n- **\"Je viens de Paris.\"** (I come from Paris.)",
+      "grammar_notes": "French distinguishes between 'tu' (informal 'you' for family/friends) and 'vous' (formal 'you' or plural 'you').",
+      "vocabulary": [
+        {
+          "id": "v-fr-1-1",
+          "word": "Bonjour",
+          "translation": "Hello / Good morning",
+          "pronunciation": "/bɔ̃.ʒuʁ/",
+          "example_sentence": "Bonjour madame, comment allez-vous ?",
+          "example_translation": "Good morning madam, how are you?"
+        },
+        {
+          "id": "v-fr-1-2",
+          "word": "Bonsoir",
+          "translation": "Good evening",
+          "pronunciation": "/bɔ̃.swaʁ/",
+          "example_sentence": "Bonsoir tout le monde !",
+          "example_translation": "Good evening everyone!"
+        },
+        {
+          "id": "v-fr-1-3",
+          "word": "Au revoir",
+          "translation": "Goodbye",
+          "pronunciation": "/o ʁə.vwaʁ/",
+          "example_sentence": "Au revoir et à demain !",
+          "example_translation": "Goodbye and see you tomorrow!"
+        },
+        {
+          "id": "v-fr-1-4",
+          "word": "S'il vous plaît",
+          "translation": "Please (formal)",
+          "pronunciation": "/sil vu plɛ/",
+          "example_sentence": "Un café, s'il vous plaît.",
+          "example_translation": "A coffee, please."
+        },
+        {
+          "id": "v-fr-1-5",
+          "word": "Merci",
+          "translation": "Thank you",
+          "pronunciation": "/mɛʁ.si/",
+          "example_sentence": "Merci beaucoup pour votre aide.",
+          "example_translation": "Thank you very much for your help."
+        },
+        {
+          "id": "v-fr-1-6",
+          "word": "De rien",
+          "translation": "You're welcome",
+          "pronunciation": "/də ʁjɛ̃/",
+          "example_sentence": "De rien, c'est un plaisir.",
+          "example_translation": "You are welcome, it is a pleasure."
+        },
+        {
+          "id": "v-fr-1-7",
+          "word": "Enchanté",
+          "translation": "Nice to meet you",
+          "pronunciation": "/ɑ̃.ʃɑ̃.te/",
+          "example_sentence": "Enchanté de faire votre connaissance.",
+          "example_translation": "Delighted to meet your acquaintance."
+        },
+        {
+          "id": "v-fr-1-8",
+          "word": "Ami",
+          "translation": "Friend",
+          "pronunciation": "/a.mi/",
+          "example_sentence": "C'est mon ami Thomas.",
+          "example_translation": "This is my friend Thomas."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-fr-1-1",
+          "question_text": "Which greeting is used during the daytime in French?",
+          "explanation": "'Bonjour' is the standard universal daytime greeting in French.",
+          "options": [
+            {
+              "id": "o-fr-1-1-1",
+              "option_text": "Bonjour",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-1-1-2",
+              "option_text": "Bonsoir",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-1-3",
+              "option_text": "Au revoir",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-1-4",
+              "option_text": "Bonne nuit",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-1-2",
+          "question_text": "How do you say 'My name is Marc' in French?",
+          "explanation": "'Je m'appelle Marc' is the correct formulation using the reflexive verb s'appeler.",
+          "options": [
+            {
+              "id": "o-fr-1-2-1",
+              "option_text": "Je m'appelle Marc.",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-1-2-2",
+              "option_text": "Je suis Marc nom.",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-2-3",
+              "option_text": "Mon Marc est.",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-2-4",
+              "option_text": "M'appelle je Marc.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-1-3",
+          "question_text": "What does 'Merci beaucoup' mean?",
+          "explanation": "'Merci beaucoup' translates to 'Thank you very much'.",
+          "options": [
+            {
+              "id": "o-fr-1-3-1",
+              "option_text": "Thank you very much",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-1-3-2",
+              "option_text": "Please help me",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-3-3",
+              "option_text": "See you later",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-3-4",
+              "option_text": "You are welcome",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-1-4",
+          "question_text": "Which is the formal way to ask 'How are you?'",
+          "explanation": "'Comment allez-vous ?' uses the formal pronoun 'vous'.",
+          "options": [
+            {
+              "id": "o-fr-1-4-1",
+              "option_text": "Comment allez-vous ?",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-1-4-2",
+              "option_text": "Ça va ?",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-4-3",
+              "option_text": "Comment vas-tu ?",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-4-4",
+              "option_text": "Quoi de neuf ?",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-1-5",
+          "question_text": "How do you politely say 'Please' to an adult stranger?",
+          "explanation": "'S'il vous plaît' is the polite formal phrase for 'please'.",
+          "options": [
+            {
+              "id": "o-fr-1-5-1",
+              "option_text": "S'il vous plaît",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-1-5-2",
+              "option_text": "De rien",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-5-3",
+              "option_text": "Enchanté",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-1-5-4",
+              "option_text": "Salut",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-fr-2",
+      "language_id": "lang-fr",
+      "level_id": "lvl-a1",
+      "title": "Les Nombres & Les Couleurs (Numbers & Colors in French)",
+      "description": "Learn to count from 1 to 20 and describe colors in French.",
+      "duration_minutes": 20,
+      "lesson_order": 2,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=DnrTrbJ6mYs",
+      "objectives": [
+        "Count from un (1) to dix (10)",
+        "Learn essential colors with feminine agreements",
+        "Describe everyday items"
+      ],
+      "content": "### Les Nombres de 1 à 10\n- **1 : Un**\n- **2 : Deux**\n- **3 : Trois**\n- **4 : Quatre**\n- **5 : Cinq**\n- **6 : Six**\n- **7 : Sept**\n- **8 : Huit**\n- **9 : Neuf**\n- **10 : Dix**\n\n### Les Couleurs (Colors)\n- **Rouge** (Red)\n- **Bleu / Bleue** (Blue)\n- **Vert / Verte** (Green)\n- **Jaune** (Yellow)\n- **Blanc / Blanche** (White)\n- **Noir / Noire** (Black)",
+      "grammar_notes": "In French, most adjectives agree in gender and number with the noun: 'un livre vert' (masculine), 'une pomme verte' (feminine with added 'e').",
+      "vocabulary": [
+        {
+          "id": "v-fr-2-1",
+          "word": "Un / Une",
+          "translation": "One (1)",
+          "pronunciation": "/œ̃/, /yn/",
+          "example_sentence": "J'ai un livre et une pomme.",
+          "example_translation": "I have one book and one apple."
+        },
+        {
+          "id": "v-fr-2-2",
+          "word": "Deux",
+          "translation": "Two (2)",
+          "pronunciation": "/dø/",
+          "example_sentence": "Deux croissants, s'il vous plaît.",
+          "example_translation": "Two croissants, please."
+        },
+        {
+          "id": "v-fr-2-3",
+          "word": "Trois",
+          "translation": "Three (3)",
+          "pronunciation": "/tʁwa/",
+          "example_sentence": "Il y a trois stylos.",
+          "example_translation": "There are three pens."
+        },
+        {
+          "id": "v-fr-2-4",
+          "word": "Rouge",
+          "translation": "Red",
+          "pronunciation": "/ʁuʒ/",
+          "example_sentence": "La voiture est rouge.",
+          "example_translation": "The car is red."
+        },
+        {
+          "id": "v-fr-2-5",
+          "word": "Bleu",
+          "translation": "Blue",
+          "pronunciation": "/blø/",
+          "example_sentence": "Le ciel est bleu.",
+          "example_translation": "The sky is blue."
+        },
+        {
+          "id": "v-fr-2-6",
+          "word": "Vert",
+          "translation": "Green",
+          "pronunciation": "/vɛʁ/",
+          "example_sentence": "Le parc est très vert.",
+          "example_translation": "The park is very green."
+        },
+        {
+          "id": "v-fr-2-7",
+          "word": "Blanc",
+          "translation": "White",
+          "pronunciation": "/blɑ̃/",
+          "example_sentence": "La neige est blanche.",
+          "example_translation": "Snow is white."
+        },
+        {
+          "id": "v-fr-2-8",
+          "word": "Noir",
+          "translation": "Black",
+          "pronunciation": "/nwaʁ/",
+          "example_sentence": "Le chat noir dort.",
+          "example_translation": "The black cat is sleeping."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-fr-2-1",
+          "question_text": "What is the French word for number '2'?",
+          "explanation": "'Deux' represents the number 2 in French.",
+          "options": [
+            {
+              "id": "o-fr-2-1-1",
+              "option_text": "Deux",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-2-1-2",
+              "option_text": "Dix",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-1-3",
+              "option_text": "Trois",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-1-4",
+              "option_text": "Huit",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-2-2",
+          "question_text": "What is the feminine form of 'vert' (green)?",
+          "explanation": "Feminine adjectives in French typically take an 'e' ending: 'verte'.",
+          "options": [
+            {
+              "id": "o-fr-2-2-1",
+              "option_text": "verte",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-2-2-2",
+              "option_text": "vertes",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-2-3",
+              "option_text": "vert",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-2-4",
+              "option_text": "verti",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-2-3",
+          "question_text": "How do you say '10' in French?",
+          "explanation": "'Dix' is pronounced /dis/ and means 10.",
+          "options": [
+            {
+              "id": "o-fr-2-3-1",
+              "option_text": "Dix",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-2-3-2",
+              "option_text": "Deux",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-3-3",
+              "option_text": "Douze",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-3-4",
+              "option_text": "Six",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-2-4",
+          "question_text": "What color is 'Le ciel est bleu' referring to?",
+          "explanation": "'Bleu' translates to blue.",
+          "options": [
+            {
+              "id": "o-fr-2-4-1",
+              "option_text": "Blue",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-2-4-2",
+              "option_text": "Yellow",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-4-3",
+              "option_text": "Red",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-4-4",
+              "option_text": "Black",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-2-5",
+          "question_text": "Which number is 'Cinq'?",
+          "explanation": "'Cinq' is 5 in French.",
+          "options": [
+            {
+              "id": "o-fr-2-5-1",
+              "option_text": "5",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-2-5-2",
+              "option_text": "4",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-5-3",
+              "option_text": "7",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-2-5-4",
+              "option_text": "9",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-fr-3",
+      "language_id": "lang-fr",
+      "level_id": "lvl-a1",
+      "title": "Le Vocabulaire Quotidien (Everyday Objects & Food)",
+      "description": "Learn key nouns for items in the home, classroom, and French cuisine.",
+      "duration_minutes": 18,
+      "lesson_order": 3,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=JmQ29gK8o-w",
+      "objectives": [
+        "Master definite articles 'le', 'la', 'l'', 'les'",
+        "Name everyday household objects",
+        "Identify common food and drink items"
+      ],
+      "content": "### Le Genre des Noms (Gender of Nouns)\nIn French, all nouns are either masculine (**le / un**) or feminine (**la / une**).\n\n#### Definite Articles (The):\n- **Le:** Masculine singular (*le livre, le café*)\n- **La:** Feminine singular (*la table, la porte*)\n- **L':** Before vowel or silent 'h' (*l'eau, l'école*)\n- **Les:** Plural for all genders (*les livres, les tables*)",
+      "grammar_notes": "Before a vowel sound, 'le' and 'la' contract into 'l'': 'l'eau' (the water) instead of 'la eau'.",
+      "vocabulary": [
+        {
+          "id": "v-fr-3-1",
+          "word": "Le livre",
+          "translation": "The book",
+          "pronunciation": "/lə livʁ/",
+          "example_sentence": "Le livre est intéressant.",
+          "example_translation": "The book is interesting."
+        },
+        {
+          "id": "v-fr-3-2",
+          "word": "La table",
+          "translation": "The table",
+          "pronunciation": "/la tabl/",
+          "example_sentence": "Le verre est sur la table.",
+          "example_translation": "The glass is on the table."
+        },
+        {
+          "id": "v-fr-3-3",
+          "word": "L'eau",
+          "translation": "Water",
+          "pronunciation": "/lo/",
+          "example_sentence": "Je bois de l'eau fraîche.",
+          "example_translation": "I drink fresh water."
+        },
+        {
+          "id": "v-fr-3-4",
+          "word": "Le pain",
+          "translation": "Bread",
+          "pronunciation": "/lə pɛ̃/",
+          "example_sentence": "Une baguette de pain français.",
+          "example_translation": "A baguette of French bread."
+        },
+        {
+          "id": "v-fr-3-5",
+          "word": "Le fromage",
+          "translation": "Cheese",
+          "pronunciation": "/lə fʁɔ.maʒ/",
+          "example_sentence": "La France a beaucoup de fromages.",
+          "example_translation": "France has many cheeses."
+        },
+        {
+          "id": "v-fr-3-6",
+          "word": "La porte",
+          "translation": "The door",
+          "pronunciation": "/la pɔʁt/",
+          "example_sentence": "Fermez la porte, s'il vous plaît.",
+          "example_translation": "Close the door, please."
+        },
+        {
+          "id": "v-fr-3-7",
+          "word": "La fenêtre",
+          "translation": "The window",
+          "pronunciation": "/la fə.nɛtʁ/",
+          "example_sentence": "Ouvrez la fenêtre.",
+          "example_translation": "Open the window."
+        },
+        {
+          "id": "v-fr-3-8",
+          "word": "La maison",
+          "translation": "The house / home",
+          "pronunciation": "/la mɛ.zɔ̃/",
+          "example_sentence": "Bienvenue dans ma maison !",
+          "example_translation": "Welcome into my house!"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-fr-3-1",
+          "question_text": "Which article is used before 'eau' (water)?",
+          "explanation": "'Eau' starts with a vowel sound, so 'l'' is used: 'l'eau'.",
+          "options": [
+            {
+              "id": "o-fr-3-1-1",
+              "option_text": "l'",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-3-1-2",
+              "option_text": "le",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-1-3",
+              "option_text": "la",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-1-4",
+              "option_text": "un",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-3-2",
+          "question_text": "What does 'Le pain' mean?",
+          "explanation": "'Le pain' is the French word for bread.",
+          "options": [
+            {
+              "id": "o-fr-3-2-1",
+              "option_text": "Bread",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-3-2-2",
+              "option_text": "Cheese",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-2-3",
+              "option_text": "Water",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-2-4",
+              "option_text": "Apple",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-3-3",
+          "question_text": "Which of the following is feminine in French?",
+          "explanation": "'La table' and 'La maison' are feminine nouns taking 'la'.",
+          "options": [
+            {
+              "id": "o-fr-3-3-1",
+              "option_text": "La table",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-3-3-2",
+              "option_text": "Le livre",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-3-3",
+              "option_text": "Le fromage",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-3-4",
+              "option_text": "Le pain",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-3-4",
+          "question_text": "What is 'The window' in French?",
+          "explanation": "'La fenêtre' translates to the window.",
+          "options": [
+            {
+              "id": "o-fr-3-4-1",
+              "option_text": "La fenêtre",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-3-4-2",
+              "option_text": "La porte",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-4-3",
+              "option_text": "La maison",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-4-4",
+              "option_text": "Le salon",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-3-5",
+          "question_text": "What is the plural article for 'les livres'?",
+          "explanation": "'Les' is the plural definite article in French.",
+          "options": [
+            {
+              "id": "o-fr-3-5-1",
+              "option_text": "les",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-3-5-2",
+              "option_text": "le",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-5-3",
+              "option_text": "la",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-3-5-4",
+              "option_text": "des",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-fr-4",
+      "language_id": "lang-fr",
+      "level_id": "lvl-a1",
+      "title": "La Grammaire Fondamentale (Verbs: Être, Avoir & -ER Verbs)",
+      "description": "Conjugate the two pillar verbs 'être' (to be) and 'avoir' (to have), plus regular -ER verbs.",
+      "duration_minutes": 24,
+      "lesson_order": 4,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=3-M-Q8vIff8",
+      "objectives": [
+        "Conjugate 'être' (to be): Je suis, Tu es, Il/Elle est, Nous sommes, Vous êtes, Ils sont",
+        "Conjugate 'avoir' (to have): J'ai, Tu as, Il/Elle a, Nous avons, Vous avez, Ils ont",
+        "Conjugate regular -ER verbs like 'parler' (to speak)"
+      ],
+      "content": "### Les Verbes Essentiels : Être & Avoir\n\n#### 1. Être (To Be):\n- **Je suis** (I am)\n- **Tu es** (You are)\n- **Il / Elle est** (He / She is)\n- **Nous sommes** (We are)\n- **Vous êtes** (You are)\n- **Ils / Elles sont** (They are)\n\n#### 2. Regular -ER Verbs (e.g. Parler - to speak):\nRemove '-er' and add: **-e, -es, -e, -ons, -ez, -ent**\n- *Je parle, Tu parles, Il parle, Nous parlons, Vous parlez, Ils parlent.*",
+      "grammar_notes": "When making negative sentences in French, wrap the verb with 'ne... pas': 'Je ne parle pas' (I do not speak).",
+      "vocabulary": [
+        {
+          "id": "v-fr-4-1",
+          "word": "Être",
+          "translation": "To be",
+          "pronunciation": "/ɛtʁ/",
+          "example_sentence": "Je suis étudiant.",
+          "example_translation": "I am a student."
+        },
+        {
+          "id": "v-fr-4-2",
+          "word": "Avoir",
+          "translation": "To have",
+          "pronunciation": "/a.vwaʁ/",
+          "example_sentence": "J'ai un chien.",
+          "example_translation": "I have a dog."
+        },
+        {
+          "id": "v-fr-4-3",
+          "word": "Parler",
+          "translation": "To speak",
+          "pronunciation": "/paʁ.le/",
+          "example_sentence": "Nous parlons français et anglais.",
+          "example_translation": "We speak French and English."
+        },
+        {
+          "id": "v-fr-4-4",
+          "word": "Habiter",
+          "translation": "To live / reside",
+          "pronunciation": "/a.bi.te/",
+          "example_sentence": "J'habite à Lyon.",
+          "example_translation": "I live in Lyon."
+        },
+        {
+          "id": "v-fr-4-5",
+          "word": "Aimer",
+          "translation": "To like / love",
+          "pronunciation": "/e.me/",
+          "example_sentence": "J'aime la musique.",
+          "example_translation": "I like music."
+        },
+        {
+          "id": "v-fr-4-6",
+          "word": "Manger",
+          "translation": "To eat",
+          "pronunciation": "/mɑ̃.ʒe/",
+          "example_sentence": "Nous mangeons du pain.",
+          "example_translation": "We eat bread."
+        },
+        {
+          "id": "v-fr-4-7",
+          "word": "Boire",
+          "translation": "To drink",
+          "pronunciation": "/bwaʁ/",
+          "example_sentence": "Il boit du café.",
+          "example_translation": "He drinks coffee."
+        },
+        {
+          "id": "v-fr-4-8",
+          "word": "Apprendre",
+          "translation": "To learn",
+          "pronunciation": "/a.pʁɑ̃dʁ/",
+          "example_sentence": "J'apprends le français.",
+          "example_translation": "I learn French."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-fr-4-1",
+          "question_text": "What is the 'Je' form of the verb 'être' (to be)?",
+          "explanation": "'Je suis' is the first person singular form of être.",
+          "options": [
+            {
+              "id": "o-fr-4-1-1",
+              "option_text": "suis",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-4-1-2",
+              "option_text": "es",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-1-3",
+              "option_text": "est",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-1-4",
+              "option_text": "sommes",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-4-2",
+          "question_text": "How do you say 'We have' (verb avoir) in French?",
+          "explanation": "'Nous avons' is the 1st person plural form of avoir.",
+          "options": [
+            {
+              "id": "o-fr-4-2-1",
+              "option_text": "Nous avons",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-4-2-2",
+              "option_text": "Nous sommes",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-2-3",
+              "option_text": "Nous avez",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-2-4",
+              "option_text": "Nous ont",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-4-3",
+          "question_text": "Conjugate 'parler' for 'Vous':",
+          "explanation": "The -ER ending for 'vous' is '-ez': 'Vous parlez'.",
+          "options": [
+            {
+              "id": "o-fr-4-3-1",
+              "option_text": "Vous parlez",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-4-3-2",
+              "option_text": "Vous parlons",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-3-3",
+              "option_text": "Vous parlent",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-3-4",
+              "option_text": "Vous parle",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-4-4",
+          "question_text": "How is negation formed in 'I do not speak'?",
+          "explanation": "'ne... pas' surrounds the conjugated verb: 'Je ne parle pas'.",
+          "options": [
+            {
+              "id": "o-fr-4-4-1",
+              "option_text": "Je ne parle pas",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-4-4-2",
+              "option_text": "Je pas parle",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-4-3",
+              "option_text": "Je non parle",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-4-4",
+              "option_text": "Je parle non",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-4-5",
+          "question_text": "Complete: 'Elle ___ française.' (verb être):",
+          "explanation": "'Elle est' is 3rd person singular for être.",
+          "options": [
+            {
+              "id": "o-fr-4-5-1",
+              "option_text": "est",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-4-5-2",
+              "option_text": "es",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-5-3",
+              "option_text": "suis",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-4-5-4",
+              "option_text": "sommes",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-fr-5",
+      "language_id": "lang-fr",
+      "level_id": "lvl-a1",
+      "title": "Dialogues & Au Café (Conversations & Cafe Culture)",
+      "description": "Order coffee and croissants at a French bistro, ask for the bill, and get directions.",
+      "duration_minutes": 20,
+      "lesson_order": 5,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=kYn8X03zXvI",
+      "objectives": [
+        "Order food with 'Je voudrais...' (I would like...)",
+        "Ask 'Combien ça coûte ?' (How much does it cost?)",
+        "Ask for the bill: 'L'addition, s'il vous plaît'"
+      ],
+      "content": "### Au Café Parisien !\nVisiting a cafe is a classic French cultural experience.\n\n#### 🥐 Le Dialogue :\n- **Serveur :** \"Bonjour ! Vous désirez ?\"\n- **Client :** \"Bonjour ! **Je voudrais** un café noir et un croissant, s'il vous plaît.\"\n- **Serveur :** \"Très bien. Ce sera tout ?\"\n- **Client :** \"Oui, merci. **Combien ça coûte ?**\"\n- **Serveur :** \"Ça fait 4 euros 50.\"\n- **Client :** \"**L'addition, s'il vous plaît.**\"",
+      "grammar_notes": "'Je voudrais' (conditional of vouloir) is the most polite and natural way to order or ask for something in French.",
+      "vocabulary": [
+        {
+          "id": "v-fr-5-1",
+          "word": "Je voudrais",
+          "translation": "I would like",
+          "pronunciation": "/ʒə vu.dʁɛ/",
+          "example_sentence": "Je voudrais un thé, s'il vous plaît.",
+          "example_translation": "I would like a tea, please."
+        },
+        {
+          "id": "v-fr-5-2",
+          "word": "L'addition",
+          "translation": "The bill / check",
+          "pronunciation": "/la.di.sjɔ̃/",
+          "example_sentence": "L'addition, s'il vous plaît.",
+          "example_translation": "The check, please."
+        },
+        {
+          "id": "v-fr-5-3",
+          "word": "Combien",
+          "translation": "How much / How many",
+          "pronunciation": "/kɔ̃.bjɛ̃/",
+          "example_sentence": "Combien ça coûte ?",
+          "example_translation": "How much does it cost?"
+        },
+        {
+          "id": "v-fr-5-4",
+          "word": "Excusez-moi",
+          "translation": "Excuse me",
+          "pronunciation": "/ɛk.sky.ze mwa/",
+          "example_sentence": "Excusez-moi, où est la gare ?",
+          "example_translation": "Excuse me, where is the train station?"
+        },
+        {
+          "id": "v-fr-5-5",
+          "word": "Tout droit",
+          "translation": "Straight ahead",
+          "pronunciation": "/tu dʁwa/",
+          "example_sentence": "Allez tout droit.",
+          "example_translation": "Go straight ahead."
+        },
+        {
+          "id": "v-fr-5-6",
+          "word": "À droite",
+          "translation": "To the right",
+          "pronunciation": "/a dʁwat/",
+          "example_sentence": "Tournez à droite.",
+          "example_translation": "Turn to the right."
+        },
+        {
+          "id": "v-fr-5-7",
+          "word": "À gauche",
+          "translation": "To the left",
+          "pronunciation": "/a ɡoʃ/",
+          "example_sentence": "La banque est à gauche.",
+          "example_translation": "The bank is on the left."
+        },
+        {
+          "id": "v-fr-5-8",
+          "word": "Où est",
+          "translation": "Where is",
+          "pronunciation": "/u ɛ/",
+          "example_sentence": "Où est le musée du Louvre ?",
+          "example_translation": "Where is the Louvre museum?"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-fr-5-1",
+          "question_text": "What is the polite way to say 'I would like' in French?",
+          "explanation": "'Je voudrais' is the standard polite expression to order or request.",
+          "options": [
+            {
+              "id": "o-fr-5-1-1",
+              "option_text": "Je voudrais",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-5-1-2",
+              "option_text": "Je veux",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-1-3",
+              "option_text": "Donne-moi",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-1-4",
+              "option_text": "J'ai besoin",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-5-2",
+          "question_text": "How do you ask for the bill at a restaurant?",
+          "explanation": "'L'addition, s'il vous plaît' asks for the check politely.",
+          "options": [
+            {
+              "id": "o-fr-5-2-1",
+              "option_text": "L'addition, s'il vous plaît",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-5-2-2",
+              "option_text": "Le prix maintenant",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-2-3",
+              "option_text": "Argent s'il vous plaît",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-2-4",
+              "option_text": "Au revoir merci",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-5-3",
+          "question_text": "What does 'Combien ça coûte ?' mean?",
+          "explanation": "It asks 'How much does it cost?'.",
+          "options": [
+            {
+              "id": "o-fr-5-3-1",
+              "option_text": "How much does it cost?",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-5-3-2",
+              "option_text": "Where is the exit?",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-3-3",
+              "option_text": "What is your name?",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-3-4",
+              "option_text": "Is this table free?",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-5-4",
+          "question_text": "What direction is 'À gauche'?",
+          "explanation": "'À gauche' means 'To the left'.",
+          "options": [
+            {
+              "id": "o-fr-5-4-1",
+              "option_text": "To the left",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-5-4-2",
+              "option_text": "To the right",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-4-3",
+              "option_text": "Straight ahead",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-4-4",
+              "option_text": "Behind",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-fr-5-5",
+          "question_text": "How do you ask 'Where is the metro?' in French?",
+          "explanation": "'Où est le métro ?' translates to 'Where is the metro?'.",
+          "options": [
+            {
+              "id": "o-fr-5-5-1",
+              "option_text": "Où est le métro ?",
+              "is_correct": true
+            },
+            {
+              "id": "o-fr-5-5-2",
+              "option_text": "Qui est le métro ?",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-5-3",
+              "option_text": "Quand est le métro ?",
+              "is_correct": false
+            },
+            {
+              "id": "o-fr-5-5-4",
+              "option_text": "Comment est le métro ?",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-es-1",
+      "language_id": "lang-es",
+      "level_id": "lvl-a1",
+      "title": "Saludos y Presentaciones (Greetings & Introductions)",
+      "description": "Learn essential Spanish greetings, introductions, and how to use ¿Cómo estás?",
+      "duration_minutes": 15,
+      "lesson_order": 1,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=k8vSWg2Xv7Q",
+      "objectives": [
+        "Use ¡Hola!, Buenos días, Buenas tardes, Buenas noches",
+        "Introduce yourself: 'Me llamo...' or 'Soy...'",
+        "Ask '¿Cómo te llamas?' and '¿Cómo estás?'"
+      ],
+      "content": "### ¡Bienvenidos al Español!\nSpanish is spoken by over 500 million people across 20+ countries!\n\n#### 1. Saludos (Greetings)\n- **¡Hola!** - Hello / Hi\n- **¡Buenos días!** - Good morning (until noon)\n- **¡Buenas tardes!** - Good afternoon\n- **¡Buenas noches!** - Good evening / Good night\n\n#### 2. Presentaciones (Introductions)\n- **\"Me llamo Carlos.\"** (My name is Carlos.)\n- **\"Mucho gusto.\"** (Pleasure to meet you.)\n- **\"Soy de Madrid.\"** (I am from Madrid.)",
+      "grammar_notes": "Notice that Spanish questions and exclamations open with inverted punctuation: '¿' and '¡' at the beginning!",
+      "vocabulary": [
+        {
+          "id": "v-es-1-1",
+          "word": "Hola",
+          "translation": "Hello",
+          "pronunciation": "/ˈo.la/",
+          "example_sentence": "¡Hola! ¿Cómo estás?",
+          "example_translation": "Hello! How are you?"
+        },
+        {
+          "id": "v-es-1-2",
+          "word": "Buenos días",
+          "translation": "Good morning",
+          "pronunciation": "/ˈbwe.nos ˈdi.as/",
+          "example_sentence": "¡Buenos días, profesor!",
+          "example_translation": "Good morning, teacher!"
+        },
+        {
+          "id": "v-es-1-3",
+          "word": "Adiós",
+          "translation": "Goodbye",
+          "pronunciation": "/aˈdjos/",
+          "example_sentence": "¡Adiós, hasta mañana!",
+          "example_translation": "Goodbye, see you tomorrow!"
+        },
+        {
+          "id": "v-es-1-4",
+          "word": "Por favor",
+          "translation": "Please",
+          "pronunciation": "/poɾ faˈβoɾ/",
+          "example_sentence": "Un vaso de agua, por favor.",
+          "example_translation": "A glass of water, please."
+        },
+        {
+          "id": "v-es-1-5",
+          "word": "Gracias",
+          "translation": "Thank you",
+          "pronunciation": "/ˈɡɾa.sjas/",
+          "example_sentence": "Muchas gracias por tu ayuda.",
+          "example_translation": "Thank you very much for your help."
+        },
+        {
+          "id": "v-es-1-6",
+          "word": "De nada",
+          "translation": "You're welcome",
+          "pronunciation": "/de ˈna.ða/",
+          "example_sentence": "De nada, amigo.",
+          "example_translation": "You are welcome, friend."
+        },
+        {
+          "id": "v-es-1-7",
+          "word": "Mucho gusto",
+          "translation": "Nice to meet you",
+          "pronunciation": "/ˈmu.tʃo ˈɣus.to/",
+          "example_sentence": "Mucho gusto en conocerte.",
+          "example_translation": "Nice to meet you."
+        },
+        {
+          "id": "v-es-1-8",
+          "word": "Amigo",
+          "translation": "Friend",
+          "pronunciation": "/aˈmi.ɣo/",
+          "example_sentence": "Él es mi mejor amigo.",
+          "example_translation": "He is my best friend."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-es-1-1",
+          "question_text": "What is the universal friendly greeting in Spanish?",
+          "explanation": "'¡Hola!' is the most common informal and friendly greeting.",
+          "options": [
+            {
+              "id": "o-es-1-1-1",
+              "option_text": "¡Hola!",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-1-1-2",
+              "option_text": "¡Adiós!",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-1-3",
+              "option_text": "¡Gracias!",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-1-4",
+              "option_text": "¡Por favor!",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-1-2",
+          "question_text": "How do you say 'My name is Sofia' in Spanish?",
+          "explanation": "'Me llamo Sofia' uses the standard reflexive verb llamarse.",
+          "options": [
+            {
+              "id": "o-es-1-2-1",
+              "option_text": "Me llamo Sofia.",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-1-2-2",
+              "option_text": "Mi nombre tiene Sofia.",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-2-3",
+              "option_text": "Yo soy nombre Sofia.",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-2-4",
+              "option_text": "Llamo me Sofia.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-1-3",
+          "question_text": "What is the polite reply to 'Gracias'?",
+          "explanation": "'De nada' means 'You're welcome' / 'It is nothing'.",
+          "options": [
+            {
+              "id": "o-es-1-3-1",
+              "option_text": "De nada",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-1-3-2",
+              "option_text": "Por favor",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-3-3",
+              "option_text": "Mucho gusto",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-3-4",
+              "option_text": "Adiós",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-1-4",
+          "question_text": "Which greeting is used in the morning before noon?",
+          "explanation": "'¡Buenos días!' is used in the morning until 12:00 PM.",
+          "options": [
+            {
+              "id": "o-es-1-4-1",
+              "option_text": "¡Buenos días!",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-1-4-2",
+              "option_text": "¡Buenas tardes!",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-4-3",
+              "option_text": "¡Buenas noches!",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-4-4",
+              "option_text": "¡Hasta luego!",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-1-5",
+          "question_text": "What special punctuation mark starts Spanish questions?",
+          "explanation": "Spanish uses inverted question marks (¿) at the beginning of interrogative phrases.",
+          "options": [
+            {
+              "id": "o-es-1-5-1",
+              "option_text": "¿ (Inverted question mark)",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-1-5-2",
+              "option_text": "@ (At symbol)",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-5-3",
+              "option_text": "# (Hash symbol)",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-1-5-4",
+              "option_text": "~ (Tilde)",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-es-2",
+      "language_id": "lang-es",
+      "level_id": "lvl-a1",
+      "title": "Números y Colores (Numbers & Colors in Spanish)",
+      "description": "Learn to count from 1 to 20 and describe colors in Spanish.",
+      "duration_minutes": 20,
+      "lesson_order": 2,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=b0Vtbwz6B-k",
+      "objectives": [
+        "Count from uno (1) to diez (10)",
+        "Name primary and secondary colors",
+        "Apply gender agreement to color adjectives"
+      ],
+      "content": "### Los Números del 1 al 10:\n- **1 : Uno**\n- **2 : Dos**\n- **3 : Tres**\n- **4 : Cuatro**\n- **5 : Cinco**\n- **6 : Seis**\n- **7 : Siete**\n- **8 : Ocho**\n- **9 : Nueve**\n- **10 : Diez**\n\n### Los Colores:\n- **Rojo / Roja** (Red)\n- **Azul** (Blue)\n- **Verde** (Green)\n- **Amarillo / Amarilla** (Yellow)\n- **Blanco / Blanca** (White)\n- **Negro / Negra** (Black)",
+      "grammar_notes": "In Spanish, adjectives ending in '-o' change to '-a' for feminine nouns: 'un libro rojo' (masculine) vs 'una casa roja' (feminine).",
+      "vocabulary": [
+        {
+          "id": "v-es-2-1",
+          "word": "Uno",
+          "translation": "One (1)",
+          "pronunciation": "/ˈu.no/",
+          "example_sentence": "Tengo un hermano.",
+          "example_translation": "I have one brother."
+        },
+        {
+          "id": "v-es-2-2",
+          "word": "Dos",
+          "translation": "Two (2)",
+          "pronunciation": "/dos/",
+          "example_sentence": "Dos cafés con leche, por favor.",
+          "example_translation": "Two coffees with milk, please."
+        },
+        {
+          "id": "v-es-2-3",
+          "word": "Tres",
+          "translation": "Three (3)",
+          "pronunciation": "/tɾes/",
+          "example_sentence": "Tres gatos juegan en el jardín.",
+          "example_translation": "Three cats play in the garden."
+        },
+        {
+          "id": "v-es-2-4",
+          "word": "Rojo",
+          "translation": "Red",
+          "pronunciation": "/ˈro.xo/",
+          "example_sentence": "La manzana es roja.",
+          "example_translation": "The apple is red."
+        },
+        {
+          "id": "v-es-2-5",
+          "word": "Azul",
+          "translation": "Blue",
+          "pronunciation": "/aˈsul/",
+          "example_sentence": "El mar es azul.",
+          "example_translation": "The sea is blue."
+        },
+        {
+          "id": "v-es-2-6",
+          "word": "Verde",
+          "translation": "Green",
+          "pronunciation": "/ˈbeɾ.ðe/",
+          "example_sentence": "El árbol tiene hojas verdes.",
+          "example_translation": "The tree has green leaves."
+        },
+        {
+          "id": "v-es-2-7",
+          "word": "Blanco",
+          "translation": "White",
+          "pronunciation": "/ˈblaŋ.ko/",
+          "example_sentence": "La casa blanca es grande.",
+          "example_translation": "The white house is large."
+        },
+        {
+          "id": "v-es-2-8",
+          "word": "Negro",
+          "translation": "Black",
+          "pronunciation": "/ˈne.ɣɾo/",
+          "example_sentence": "Tengo un coche negro.",
+          "example_translation": "I have a black car."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-es-2-1",
+          "question_text": "What is the number '5' in Spanish?",
+          "explanation": "'Cinco' represents the number 5.",
+          "options": [
+            {
+              "id": "o-es-2-1-1",
+              "option_text": "Cinco",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-2-1-2",
+              "option_text": "Cuatro",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-1-3",
+              "option_text": "Seis",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-1-4",
+              "option_text": "Siete",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-2-2",
+          "question_text": "How do you say 'The red apple' (apple = manzana, feminine)?",
+          "explanation": "'Manzana' is feminine, so it takes 'roja': 'La manzana roja'.",
+          "options": [
+            {
+              "id": "o-es-2-2-1",
+              "option_text": "La manzana roja",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-2-2-2",
+              "option_text": "La manzana rojo",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-2-3",
+              "option_text": "El manzana rojo",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-2-4",
+              "option_text": "Rojo manzana",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-2-3",
+          "question_text": "What number comes after 'Siete' (7)?",
+          "explanation": "Ocho (8) follows Siete (7).",
+          "options": [
+            {
+              "id": "o-es-2-3-1",
+              "option_text": "Ocho",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-2-3-2",
+              "option_text": "Nueve",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-3-3",
+              "option_text": "Diez",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-3-4",
+              "option_text": "Seis",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-2-4",
+          "question_text": "What color is 'El mar es azul' referring to?",
+          "explanation": "'Azul' is blue.",
+          "options": [
+            {
+              "id": "o-es-2-4-1",
+              "option_text": "Blue",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-2-4-2",
+              "option_text": "Green",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-4-3",
+              "option_text": "Yellow",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-4-4",
+              "option_text": "Black",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-2-5",
+          "question_text": "How do you say '10' in Spanish?",
+          "explanation": "'Diez' is the number 10.",
+          "options": [
+            {
+              "id": "o-es-2-5-1",
+              "option_text": "Diez",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-2-5-2",
+              "option_text": "Dos",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-5-3",
+              "option_text": "Doce",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-2-5-4",
+              "option_text": "Cien",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-es-3",
+      "language_id": "lang-es",
+      "level_id": "lvl-a1",
+      "title": "Vocabulario Común y La Casa (Everyday Objects & Home)",
+      "description": "Learn essential Spanish nouns for household items, food, and daily life.",
+      "duration_minutes": 18,
+      "lesson_order": 3,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=t3wHkH20N-Y",
+      "objectives": [
+        "Master definite articles 'el', 'la', 'los', 'las'",
+        "Name furniture and parts of a house",
+        "Identify common food items"
+      ],
+      "content": "### Género y Artículos en Español\nIn Spanish, nouns are masculine (**el**) or feminine (**la**).\n\n#### Artículos Definidos (The):\n- **El:** Masculino singular (*el libro, el café, el pan*)\n- **La:** Femenino singular (*la mesa, la puerta, la casa*)\n- **Los:** Masculino plural (*los libros*)\n- **Las:** Femenino plural (*las mesas*)",
+      "grammar_notes": "Words ending in '-o' are usually masculine, and words ending in '-a', '-ción', or '-dad' are feminine.",
+      "vocabulary": [
+        {
+          "id": "v-es-3-1",
+          "word": "El libro",
+          "translation": "The book",
+          "pronunciation": "/el ˈli.βɾo/",
+          "example_sentence": "El libro está en la mesa.",
+          "example_translation": "The book is on the table."
+        },
+        {
+          "id": "v-es-3-2",
+          "word": "La mesa",
+          "translation": "The table",
+          "pronunciation": "/la ˈme.sa/",
+          "example_sentence": "Cenamos en la mesa.",
+          "example_translation": "We have dinner at the table."
+        },
+        {
+          "id": "v-es-3-3",
+          "word": "El agua",
+          "translation": "Water",
+          "pronunciation": "/el ˈa.ɣwa/",
+          "example_sentence": "Bebo un vaso de agua.",
+          "example_translation": "I drink a glass of water."
+        },
+        {
+          "id": "v-es-3-4",
+          "word": "El pan",
+          "translation": "Bread",
+          "pronunciation": "/el pan/",
+          "example_sentence": "Compramos pan caliente.",
+          "example_translation": "We buy hot bread."
+        },
+        {
+          "id": "v-es-3-5",
+          "word": "La casa",
+          "translation": "The house",
+          "pronunciation": "/la ˈka.sa/",
+          "example_sentence": "Mi casa es tu casa.",
+          "example_translation": "My house is your house."
+        },
+        {
+          "id": "v-es-3-6",
+          "word": "La puerta",
+          "translation": "The door",
+          "pronunciation": "/la ˈpweɾ.ta/",
+          "example_sentence": "Abre la puerta, por favor.",
+          "example_translation": "Open the door, please."
+        },
+        {
+          "id": "v-es-3-7",
+          "word": "La ventana",
+          "translation": "The window",
+          "pronunciation": "/la benˈta.na/",
+          "example_sentence": "La ventana está abierta.",
+          "example_translation": "The window is open."
+        },
+        {
+          "id": "v-es-3-8",
+          "word": "El teléfono",
+          "translation": "The telephone / phone",
+          "pronunciation": "/el teˈle.fo.no/",
+          "example_sentence": "¿Dónde está mi teléfono?",
+          "example_translation": "Where is my phone?"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-es-3-1",
+          "question_text": "Which article pairs with 'mesa' (table)?",
+          "explanation": "'Mesa' is a feminine noun, so 'la' is used: 'la mesa'.",
+          "options": [
+            {
+              "id": "o-es-3-1-1",
+              "option_text": "la",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-3-1-2",
+              "option_text": "el",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-1-3",
+              "option_text": "un",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-1-4",
+              "option_text": "los",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-3-2",
+          "question_text": "What does 'El pan' mean in English?",
+          "explanation": "'El pan' translates to bread.",
+          "options": [
+            {
+              "id": "o-es-3-2-1",
+              "option_text": "Bread",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-3-2-2",
+              "option_text": "Cheese",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-2-3",
+              "option_text": "Water",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-2-4",
+              "option_text": "Fruit",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-3-3",
+          "question_text": "What is 'The window' in Spanish?",
+          "explanation": "'La ventana' means the window.",
+          "options": [
+            {
+              "id": "o-es-3-3-1",
+              "option_text": "La ventana",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-3-3-2",
+              "option_text": "La puerta",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-3-3",
+              "option_text": "La casa",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-3-4",
+              "option_text": "La mesa",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-3-4",
+          "question_text": "What is the plural of 'el libro'?",
+          "explanation": "'Los libros' is the correct masculine plural form.",
+          "options": [
+            {
+              "id": "o-es-3-4-1",
+              "option_text": "Los libros",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-3-4-2",
+              "option_text": "Las libros",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-4-3",
+              "option_text": "El libros",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-4-4",
+              "option_text": "Les libros",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-3-5",
+          "question_text": "Complete: 'Abre la ___, por favor.' (to enter a room):",
+          "explanation": "'La puerta' (the door) is opened to enter.",
+          "options": [
+            {
+              "id": "o-es-3-5-1",
+              "option_text": "puerta",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-3-5-2",
+              "option_text": "mesa",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-5-3",
+              "option_text": "agua",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-3-5-4",
+              "option_text": "pan",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-es-4",
+      "language_id": "lang-es",
+      "level_id": "lvl-a1",
+      "title": "Gramática: Ser vs. Estar y Verbos -AR (Grammar Essentials)",
+      "description": "Master the crucial difference between 'ser' (permanent) and 'estar' (temporary/location), plus -AR verbs.",
+      "duration_minutes": 24,
+      "lesson_order": 4,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=B1XEQgYQYgI",
+      "objectives": [
+        "Differentiate 'Ser' (identity/traits) and 'Estar' (states/location)",
+        "Conjugate 'hablar' (to speak): hablo, hablas, habla, hablamos, habláis, hablan",
+        "Form simple sentences with pronouns"
+      ],
+      "content": "### Ser vs. Estar: The Two 'To Be' Verbs\nSpanish has two verbs for \"to be\", each with distinct meanings:\n\n#### 1. Ser (Identity, origin, permanent traits):\n- *Yo soy de España.* (Origin)\n- *Ella es médica.* (Profession)\n\n#### 2. Estar (Location, temporary emotions, physical states):\n- *Yo estoy contento.* (Feeling happy now)\n- *Madrid está en España.* (Geographic location)\n\n#### Verbos Regulares -AR (Hablar):\n- *Yo habl**o**, Tú habl**as**, Él habl**a**, Nosotros habl**amos**, Ellos habl**an**.*",
+      "grammar_notes": "Acronym to remember Estar: PLACE (Position, Location, Action, Condition, Emotion).",
+      "vocabulary": [
+        {
+          "id": "v-es-4-1",
+          "word": "Ser",
+          "translation": "To be (permanent)",
+          "pronunciation": "/seɾ/",
+          "example_sentence": "Yo soy profesor.",
+          "example_translation": "I am a teacher."
+        },
+        {
+          "id": "v-es-4-2",
+          "word": "Estar",
+          "translation": "To be (temporary/location)",
+          "pronunciation": "/esˈtaɾ/",
+          "example_sentence": "Estoy muy feliz hoy.",
+          "example_translation": "I am very happy today."
+        },
+        {
+          "id": "v-es-4-3",
+          "word": "Hablar",
+          "translation": "To speak",
+          "pronunciation": "/aˈβlaɾ/",
+          "example_sentence": "Hablamos español.",
+          "example_translation": "We speak Spanish."
+        },
+        {
+          "id": "v-es-4-4",
+          "word": "Comer",
+          "translation": "To eat",
+          "pronunciation": "/koˈmeɾ/",
+          "example_sentence": "Comemos paella.",
+          "example_translation": "We eat paella."
+        },
+        {
+          "id": "v-es-4-5",
+          "word": "Vivir",
+          "translation": "To live",
+          "pronunciation": "/biˈβiɾ/",
+          "example_sentence": "Vivo en Barcelona.",
+          "example_translation": "I live in Barcelona."
+        },
+        {
+          "id": "v-es-4-6",
+          "word": "Trabajar",
+          "translation": "To work",
+          "pronunciation": "/tɾa.βaˈxaɾ/",
+          "example_sentence": "Ella trabaja mucho.",
+          "example_translation": "She works a lot."
+        },
+        {
+          "id": "v-es-4-7",
+          "word": "Aprender",
+          "translation": "To learn",
+          "pronunciation": "/a.pɾenˈdeɾ/",
+          "example_sentence": "Aprendo palabras nuevas.",
+          "example_translation": "I learn new words."
+        },
+        {
+          "id": "v-es-4-8",
+          "word": "Tener",
+          "translation": "To have",
+          "pronunciation": "/teˈneɾ/",
+          "example_sentence": "Tengo veinte años.",
+          "example_translation": "I am 20 years old (I have 20 years)."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-es-4-1",
+          "question_text": "Which verb is used for expressing location: 'The hotel is in Seville'?",
+          "explanation": "'Estar' is used for location: 'El hotel está en Sevilla.'",
+          "options": [
+            {
+              "id": "o-es-4-1-1",
+              "option_text": "Estar (está)",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-4-1-2",
+              "option_text": "Ser (es)",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-1-3",
+              "option_text": "Haber (hay)",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-1-4",
+              "option_text": "Tener (tiene)",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-4-2",
+          "question_text": "Conjugate 'hablar' for 'Yo' (I):",
+          "explanation": "The -AR ending for 'Yo' is '-o': 'Yo hablo'.",
+          "options": [
+            {
+              "id": "o-es-4-2-1",
+              "option_text": "hablo",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-4-2-2",
+              "option_text": "hablas",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-2-3",
+              "option_text": "habla",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-2-4",
+              "option_text": "hablamos",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-4-3",
+          "question_text": "Which sentence correctly says 'I am from Mexico'?",
+          "explanation": "Origin uses 'Ser': 'Yo soy de México.'",
+          "options": [
+            {
+              "id": "o-es-4-3-1",
+              "option_text": "Yo soy de México.",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-4-3-2",
+              "option_text": "Yo estoy de México.",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-3-3",
+              "option_text": "Yo tengo de México.",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-3-4",
+              "option_text": "Yo vivo México.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-4-4",
+          "question_text": "Conjugate 'hablar' for 'Nosotros' (We):",
+          "explanation": "'Nosotros hablamos' is the 1st person plural form.",
+          "options": [
+            {
+              "id": "o-es-4-4-1",
+              "option_text": "hablamos",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-4-4-2",
+              "option_text": "hablan",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-4-3",
+              "option_text": "hablas",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-4-4",
+              "option_text": "hablar",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-4-5",
+          "question_text": "Complete: 'Ella ___ cansada hoy.' (She is tired today - state):",
+          "explanation": "A temporary condition/feeling uses 'Estar': 'Ella está cansada.'",
+          "options": [
+            {
+              "id": "o-es-4-5-1",
+              "option_text": "está",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-4-5-2",
+              "option_text": "es",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-5-3",
+              "option_text": "somos",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-4-5-4",
+              "option_text": "tiene",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-es-5",
+      "language_id": "lang-es",
+      "level_id": "lvl-a1",
+      "title": "En el Restaurante y Preguntar Direcciones (Dining & Directions)",
+      "description": "Order tapas at a Spanish restaurant, ask for the bill, and navigate city streets.",
+      "duration_minutes": 20,
+      "lesson_order": 5,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=XhI2m_iM9qQ",
+      "objectives": [
+        "Order food with 'Quisiera...' or 'Para mí...'",
+        "Ask '¿Cuánto cuesta?' (How much does it cost?)",
+        "Ask for directions with '¿Dónde está...?'"
+      ],
+      "content": "### En el Restaurante Español\nEnjoying tapas and dining out is a central part of Spanish social life!\n\n#### 🥘 El Diálogo:\n- **Camarero:** \"¡Buenas tardes! ¿Qué van a tomar?\"\n- **Cliente:** \"**Quisiera** una ración de patatas bravas y un agua mineral, por favor.\"\n- **Camarero:** \"¡Muy bien! ¿Algo más?\"\n- **Cliente:** \"No, gracias. **¿La cuenta, por favor?**\"\n- **Camarero:** \"Son 8 euros con 50 céntimos.\"\n\n#### 🗺️ Direcciones:\n- **\"¿Dónde está la estación de tren?\"** (Where is the train station?)\n- **\"Todo recto y gire a la derecha.\"** (Straight ahead and turn right.)",
+      "grammar_notes": "'¿Me trae la cuenta, por favor?' and 'La cuenta, por favor' are the most common ways to ask for the bill.",
+      "vocabulary": [
+        {
+          "id": "v-es-5-1",
+          "word": "Quisiera",
+          "translation": "I would like",
+          "pronunciation": "/kiˈsje.ɾa/",
+          "example_sentence": "Quisiera una mesa para dos.",
+          "example_translation": "I would like a table for two."
+        },
+        {
+          "id": "v-es-5-2",
+          "word": "La cuenta",
+          "translation": "The bill",
+          "pronunciation": "/la ˈkwen.ta/",
+          "example_sentence": "La cuenta, por favor.",
+          "example_translation": "The bill, please."
+        },
+        {
+          "id": "v-es-5-3",
+          "word": "¿Cuánto cuesta?",
+          "translation": "How much does it cost?",
+          "pronunciation": "/ˈkwan.to ˈkwes.ta/",
+          "example_sentence": "¿Cuánto cuesta este menú?",
+          "example_translation": "How much is this menu?"
+        },
+        {
+          "id": "v-es-5-4",
+          "word": "Disculpe",
+          "translation": "Excuse me",
+          "pronunciation": "/disˈkul.pe/",
+          "example_sentence": "Disculpe, ¿dónde está el baño?",
+          "example_translation": "Excuse me, where is the bathroom?"
+        },
+        {
+          "id": "v-es-5-5",
+          "word": "Todo recto",
+          "translation": "Straight ahead",
+          "pronunciation": "/ˈto.ðo ˈrek.to/",
+          "example_sentence": "Siga todo recto dos calles.",
+          "example_translation": "Continue straight ahead two streets."
+        },
+        {
+          "id": "v-es-5-6",
+          "word": "A la derecha",
+          "translation": "To the right",
+          "pronunciation": "/a la ðeˈɾe.tʃa/",
+          "example_sentence": "Gire a la derecha.",
+          "example_translation": "Turn to the right."
+        },
+        {
+          "id": "v-es-5-7",
+          "word": "A la izquierda",
+          "translation": "To the left",
+          "pronunciation": "/a la isˈkjeɾ.ða/",
+          "example_sentence": "El banco está a la izquierda.",
+          "example_translation": "The bank is on the left."
+        },
+        {
+          "id": "v-es-5-8",
+          "word": "¿Dónde está?",
+          "translation": "Where is...?",
+          "pronunciation": "/ˈdon.de esˈta/",
+          "example_sentence": "¿Dónde está el museo del Prado?",
+          "example_translation": "Where is the Prado museum?"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-es-5-1",
+          "question_text": "How do you politely ask for the bill in a restaurant in Spain?",
+          "explanation": "'La cuenta, por favor' is the standard polite phrase.",
+          "options": [
+            {
+              "id": "o-es-5-1-1",
+              "option_text": "La cuenta, por favor.",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-5-1-2",
+              "option_text": "Dinero ahora.",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-1-3",
+              "option_text": "El precio rápido.",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-1-4",
+              "option_text": "Quiero pagar ya.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-5-2",
+          "question_text": "What does '¿Cuánto cuesta?' mean?",
+          "explanation": "'¿Cuánto cuesta?' asks for the cost or price.",
+          "options": [
+            {
+              "id": "o-es-5-2-1",
+              "option_text": "How much does it cost?",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-5-2-2",
+              "option_text": "Where is the train?",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-2-3",
+              "option_text": "What time is it?",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-2-4",
+              "option_text": "Can I sit here?",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-5-3",
+          "question_text": "What direction is 'A la derecha'?",
+          "explanation": "'A la derecha' means 'To the right'.",
+          "options": [
+            {
+              "id": "o-es-5-3-1",
+              "option_text": "To the right",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-5-3-2",
+              "option_text": "To the left",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-3-3",
+              "option_text": "Straight ahead",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-3-4",
+              "option_text": "Turn back",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-5-4",
+          "question_text": "How do you ask 'Where is the pharmacy?' in Spanish?",
+          "explanation": "'¿Dónde está la farmacia?' is the correct question.",
+          "options": [
+            {
+              "id": "o-es-5-4-1",
+              "option_text": "¿Dónde está la farmacia?",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-5-4-2",
+              "option_text": "¿Quién es la farmacia?",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-4-3",
+              "option_text": "¿Cuándo es la farmacia?",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-4-4",
+              "option_text": "¿Cómo es la farmacia?",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-es-5-5",
+          "question_text": "Which word means 'I would like' when ordering?",
+          "explanation": "'Quisiera' translates to 'I would like'.",
+          "options": [
+            {
+              "id": "o-es-5-5-1",
+              "option_text": "Quisiera",
+              "is_correct": true
+            },
+            {
+              "id": "o-es-5-5-2",
+              "option_text": "Tengo",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-5-3",
+              "option_text": "Soy",
+              "is_correct": false
+            },
+            {
+              "id": "o-es-5-5-4",
+              "option_text": "Vivo",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-de-1",
+      "language_id": "lang-de",
+      "level_id": "lvl-a1",
+      "title": "Begrüßung & Kennenlernen (Greetings & Introductions)",
+      "description": "Learn German greetings, introducing yourself, and formal vs informal address.",
+      "duration_minutes": 15,
+      "lesson_order": 1,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=0m_1Hq9U5p8",
+      "objectives": [
+        "Greet people: Hallo, Guten Tag, Guten Morgen, Guten Abend",
+        "Introduce yourself: 'Ich heiße...' and 'Ich komme aus...'",
+        "Master the distinction between 'du' (informal) and 'Sie' (formal)"
+      ],
+      "content": "### Willkommen zur deutschen Sprache!\nGerman is the most widely spoken native language in the European Union.\n\n#### 1. Begrüßungen (Greetings):\n- **Guten Morgen** - Good morning (until ~11:00 AM)\n- **Guten Tag** - Good day / Hello (general daytime greeting)\n- **Guten Abend** - Good evening\n- **Hallo** - Hi / Hello (informal and friendly)\n\n#### 2. Vorstellung (Self Introduction):\n- **\"Ich heiße Lukas.\"** (My name is Lukas.)\n- **\"Ich komme aus Berlin.\"** (I come from Berlin.)\n- **\"Freut mich!\"** (Pleased to meet you!)",
+      "grammar_notes": "Notice that ALL German nouns are capitalized (e.g., der Tag, der Abend, der Name)!",
+      "vocabulary": [
+        {
+          "id": "v-de-1-1",
+          "word": "Hallo",
+          "translation": "Hello",
+          "pronunciation": "/ˈhaloː/",
+          "example_sentence": "Hallo! Wie geht es dir?",
+          "example_translation": "Hello! How are you?"
+        },
+        {
+          "id": "v-de-1-2",
+          "word": "Guten Tag",
+          "translation": "Good day / Hello",
+          "pronunciation": "/ˌɡuːtn̩ ˈtaːk/",
+          "example_sentence": "Guten Tag, Herr Müller!",
+          "example_translation": "Good day, Mr. Müller!"
+        },
+        {
+          "id": "v-de-1-3",
+          "word": "Auf Wiedersehen",
+          "translation": "Goodbye (formal)",
+          "pronunciation": "/aʊf ˈviːdɐˌzeːən/",
+          "example_sentence": "Auf Wiedersehen und schönen Tag!",
+          "example_translation": "Goodbye and have a nice day!"
+        },
+        {
+          "id": "v-de-1-4",
+          "word": "Bitte",
+          "translation": "Please / You're welcome",
+          "pronunciation": "/ˈbɪtə/",
+          "example_sentence": "Ein Wasser, bitte.",
+          "example_translation": "A water, please."
+        },
+        {
+          "id": "v-de-1-5",
+          "word": "Danke",
+          "translation": "Thank you",
+          "pronunciation": "/ˈdaŋkə/",
+          "example_sentence": "Vielen Dank für Ihre Hilfe.",
+          "example_translation": "Many thanks for your help."
+        },
+        {
+          "id": "v-de-1-6",
+          "word": "Freut mich",
+          "translation": "Pleased to meet you",
+          "pronunciation": "/fʁɔɪt mɪç/",
+          "example_sentence": "Sehr erfreut, Sie kennenzulernen.",
+          "example_translation": "Very pleased to meet you."
+        },
+        {
+          "id": "v-de-1-7",
+          "word": "Name",
+          "translation": "Name",
+          "pronunciation": "/ˈnaːmə/",
+          "example_sentence": "Wie ist Ihr Name?",
+          "example_translation": "What is your name?"
+        },
+        {
+          "id": "v-de-1-8",
+          "word": "Freund",
+          "translation": "Friend",
+          "pronunciation": "/fʁɔɪnt/",
+          "example_sentence": "Er ist mein bester Freund.",
+          "example_translation": "He is my best friend."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-de-1-1",
+          "question_text": "What is the formal German daytime greeting?",
+          "explanation": "'Guten Tag' is the standard formal daytime greeting.",
+          "options": [
+            {
+              "id": "o-de-1-1-1",
+              "option_text": "Guten Tag",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-1-1-2",
+              "option_text": "Gute Nacht",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-1-3",
+              "option_text": "Tschüss",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-1-4",
+              "option_text": "Auf Wiedersehen",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-1-2",
+          "question_text": "How do you say 'My name is Anna' in German?",
+          "explanation": "'Ich heiße Anna' is the standard introduction phrase.",
+          "options": [
+            {
+              "id": "o-de-1-2-1",
+              "option_text": "Ich heiße Anna.",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-1-2-2",
+              "option_text": "Mein ist Anna.",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-2-3",
+              "option_text": "Ich bin Name Anna.",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-2-4",
+              "option_text": "Heiße ich Anna.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-1-3",
+          "question_text": "What unique rule applies to German nouns?",
+          "explanation": "Every single German noun is capitalized (e.g. der Tisch, das Haus, die Sonne).",
+          "options": [
+            {
+              "id": "o-de-1-3-1",
+              "option_text": "All nouns are always capitalized",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-1-3-2",
+              "option_text": "Nouns are never capitalized",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-3-3",
+              "option_text": "Only verbs are capitalized",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-3-4",
+              "option_text": "Nouns are written in reverse",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-1-4",
+          "question_text": "What does 'Danke schön' mean?",
+          "explanation": "'Danke schön' translates to 'Thank you very much'.",
+          "options": [
+            {
+              "id": "o-de-1-4-1",
+              "option_text": "Thank you very much",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-1-4-2",
+              "option_text": "Please come in",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-4-3",
+              "option_text": "Goodbye",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-4-4",
+              "option_text": "Good night",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-1-5",
+          "question_text": "What is the formal word for 'Goodbye' in German?",
+          "explanation": "'Auf Wiedersehen' is the standard polite goodbye.",
+          "options": [
+            {
+              "id": "o-de-1-5-1",
+              "option_text": "Auf Wiedersehen",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-1-5-2",
+              "option_text": "Hallo",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-5-3",
+              "option_text": "Bitte",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-1-5-4",
+              "option_text": "Guten Morgen",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-de-2",
+      "language_id": "lang-de",
+      "level_id": "lvl-a1",
+      "title": "Zahlen & Farben (Numbers & Colors in German)",
+      "description": "Learn to count from 1 to 20 and name colors in German.",
+      "duration_minutes": 20,
+      "lesson_order": 2,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=0h6bXgA3K9o",
+      "objectives": [
+        "Count from eins (1) to zehn (10)",
+        "Name primary and secondary colors",
+        "Describe everyday objects in German"
+      ],
+      "content": "### Die Zahlen von 1 bis 10:\n- **1 : Eins**\n- **2 : Zwei**\n- **3 : Drei**\n- **4 : Vier**\n- **5 : Fünf**\n- **6 : Sechs**\n- **7 : Sieben**\n- **8 : Acht**\n- **9 : Neun**\n- **10 : Zehn**\n\n### Die Farben:\n- **Rot** (Red)\n- **Blau** (Blue)\n- **Grün** (Green)\n- **Gelb** (Yellow)\n- **Weiß** (White)\n- **Schwarz** (Black)",
+      "grammar_notes": "German special characters include the umlauts Ä, Ö, Ü (and lower case ä, ö, ü) plus the sharp s 'ß' (Eszett).",
+      "vocabulary": [
+        {
+          "id": "v-de-2-1",
+          "word": "Eins",
+          "translation": "One (1)",
+          "pronunciation": "/aɪ̯ns/",
+          "example_sentence": "Ich habe ein Buch.",
+          "example_translation": "I have one book."
+        },
+        {
+          "id": "v-de-2-2",
+          "word": "Zwei",
+          "translation": "Two (2)",
+          "pronunciation": "/tsvaɪ̯/",
+          "example_sentence": "Zwei Kaffee, bitte.",
+          "example_translation": "Two coffees, please."
+        },
+        {
+          "id": "v-de-2-3",
+          "word": "Drei",
+          "translation": "Three (3)",
+          "pronunciation": "/dʁaɪ̯/",
+          "example_sentence": "Drei Freunde reisen zusammen.",
+          "example_translation": "Three friends travel together."
+        },
+        {
+          "id": "v-de-2-4",
+          "word": "Rot",
+          "translation": "Red",
+          "pronunciation": "/ʁoːt/",
+          "example_sentence": "Der Apfel ist rot.",
+          "example_translation": "The apple is red."
+        },
+        {
+          "id": "v-de-2-5",
+          "word": "Blau",
+          "translation": "Blue",
+          "pronunciation": "/blaʊ̯/",
+          "example_sentence": "Der Himmel ist blau.",
+          "example_translation": "The sky is blue."
+        },
+        {
+          "id": "v-de-2-6",
+          "word": "Grün",
+          "translation": "Green",
+          "pronunciation": "/ɡʁyːn/",
+          "example_sentence": "Das Gras ist grün.",
+          "example_translation": "The grass is green."
+        },
+        {
+          "id": "v-de-2-7",
+          "word": "Weiß",
+          "translation": "White",
+          "pronunciation": "/vaɪ̯s/",
+          "example_sentence": "Schnee ist weiß.",
+          "example_translation": "Snow is white."
+        },
+        {
+          "id": "v-de-2-8",
+          "word": "Schwarz",
+          "translation": "Black",
+          "pronunciation": "/ʃvaʁts/",
+          "example_sentence": "Der Kaffee ist schwarz.",
+          "example_translation": "The coffee is black."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-de-2-1",
+          "question_text": "What is the German word for number '4'?",
+          "explanation": "'Vier' is the number 4 in German.",
+          "options": [
+            {
+              "id": "o-de-2-1-1",
+              "option_text": "Vier",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-2-1-2",
+              "option_text": "Zwei",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-1-3",
+              "option_text": "Drei",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-1-4",
+              "option_text": "Fünf",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-2-2",
+          "question_text": "How do you say 'The apple is red' in German?",
+          "explanation": "'Der Apfel ist rot.' Note that Apfel is capitalized.",
+          "options": [
+            {
+              "id": "o-de-2-2-1",
+              "option_text": "Der Apfel ist rot.",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-2-2-2",
+              "option_text": "Der Apfel ist blau.",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-2-3",
+              "option_text": "Das Apfel rot ist.",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-2-4",
+              "option_text": "Rot der Apfel.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-2-3",
+          "question_text": "What number is 'Zehn'?",
+          "explanation": "'Zehn' means 10.",
+          "options": [
+            {
+              "id": "o-de-2-3-1",
+              "option_text": "10",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-2-2-2",
+              "option_text": "2",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-3-3",
+              "option_text": "12",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-3-4",
+              "option_text": "20",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-2-4",
+          "question_text": "What color is 'Grün'?",
+          "explanation": "'Grün' translates to green.",
+          "options": [
+            {
+              "id": "o-de-2-4-1",
+              "option_text": "Green",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-2-4-2",
+              "option_text": "Yellow",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-4-3",
+              "option_text": "Blue",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-4-4",
+              "option_text": "White",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-2-5",
+          "question_text": "What is the German special character 'ß' called?",
+          "explanation": "'ß' is called the Eszett or sharp S (scharfes S).",
+          "options": [
+            {
+              "id": "o-de-2-5-1",
+              "option_text": "Eszett (scharfes S)",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-2-5-2",
+              "option_text": "Umlaut",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-5-3",
+              "option_text": "Cedilla",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-2-5-4",
+              "option_text": "Tilde",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-de-3",
+      "language_id": "lang-de",
+      "level_id": "lvl-a1",
+      "title": "Der, Die, Das: Alltägliche Wörter (Articles & Objects)",
+      "description": "Master the three German genders (Der, Die, Das) and everyday vocabulary.",
+      "duration_minutes": 20,
+      "lesson_order": 3,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=sS_wB2m0l3A",
+      "objectives": [
+        "Understand the three grammatical genders: Masculine (der), Feminine (die), Neuter (das)",
+        "Learn common household nouns with their definite articles",
+        "Learn the plural article 'die'"
+      ],
+      "content": "### Die Drei Artikel (Der, Die, Das)\nGerman has three distinct grammatical genders:\n- **Der:** Maskulin (*der Tisch, der Mann, der Apfel*)\n- **Die:** Feminin (*die Frau, die Tür, die Lampe*)\n- **Das:** Neutrum (*das Buch, das Haus, das Wasser*)\n\n#### Plural Rule:\nAll plural nouns in the nominative case use the article **die**!\n- *Der Tisch* -> *Die Tische*\n- *Das Buch* -> *Die Bücher*",
+      "grammar_notes": "Always learn every German noun together with its article (der/die/das) from day one!",
+      "vocabulary": [
+        {
+          "id": "v-de-3-1",
+          "word": "Der Tisch",
+          "translation": "The table",
+          "pronunciation": "/deːɐ̯ tɪʃ/",
+          "example_sentence": "Der Tisch ist aus Holz.",
+          "example_translation": "The table is made of wood."
+        },
+        {
+          "id": "v-de-3-2",
+          "word": "Das Buch",
+          "translation": "The book",
+          "pronunciation": "/das buːx/",
+          "example_sentence": "Das Buch ist sehr spannend.",
+          "example_translation": "The book is very exciting."
+        },
+        {
+          "id": "v-de-3-3",
+          "word": "Das Wasser",
+          "translation": "The water",
+          "pronunciation": "/das ˈvasɐ/",
+          "example_sentence": "Ich trinke ein Glas Wasser.",
+          "example_translation": "I drink a glass of water."
+        },
+        {
+          "id": "v-de-3-4",
+          "word": "Das Brot",
+          "translation": "The bread",
+          "pronunciation": "/das bʁoːt/",
+          "example_sentence": "Frisches deutsches Brot schmeckt gut.",
+          "example_translation": "Fresh German bread tastes good."
+        },
+        {
+          "id": "v-de-3-5",
+          "word": "Das Haus",
+          "translation": "The house",
+          "pronunciation": "/das haʊ̯s/",
+          "example_sentence": "Das Haus hat einen Garten.",
+          "example_translation": "The house has a garden."
+        },
+        {
+          "id": "v-de-3-6",
+          "word": "Die Tür",
+          "translation": "The door",
+          "pronunciation": "/diː tyːɐ̯/",
+          "example_sentence": "Bitte schließen Sie die Tür.",
+          "example_translation": "Please close the door."
+        },
+        {
+          "id": "v-de-3-7",
+          "word": "Das Fenster",
+          "translation": "The window",
+          "pronunciation": "/das ˈfɛnstɐ/",
+          "example_sentence": "Das Fenster ist offen.",
+          "example_translation": "The window is open."
+        },
+        {
+          "id": "v-de-3-8",
+          "word": "Das Handy",
+          "translation": "The mobile phone",
+          "pronunciation": "/das ˈhɛndi/",
+          "example_sentence": "Wo ist mein Handy?",
+          "example_translation": "Where is my mobile phone?"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-de-3-1",
+          "question_text": "What are the three definite articles in German?",
+          "explanation": "Der (masculine), Die (feminine), Das (neuter).",
+          "options": [
+            {
+              "id": "o-de-3-1-1",
+              "option_text": "Der, Die, Das",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-3-1-2",
+              "option_text": "Le, La, Les",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-1-3",
+              "option_text": "El, La, Lo",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-1-4",
+              "option_text": "Un, Une, Des",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-3-2",
+          "question_text": "Which article pairs with 'Buch' (book)?",
+          "explanation": "'Buch' is neuter: 'Das Buch'.",
+          "options": [
+            {
+              "id": "o-de-3-2-1",
+              "option_text": "Das",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-3-2-2",
+              "option_text": "Der",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-2-3",
+              "option_text": "Die",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-2-4",
+              "option_text": "Den",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-3-3",
+          "question_text": "Which article is used for ALL plural nouns in nominative?",
+          "explanation": "'Die' is the universal plural article in German nominative case.",
+          "options": [
+            {
+              "id": "o-de-3-3-1",
+              "option_text": "Die",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-3-3-2",
+              "option_text": "Der",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-3-3",
+              "option_text": "Das",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-3-4",
+              "option_text": "Dem",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-3-4",
+          "question_text": "What is 'The window' in German?",
+          "explanation": "'Das Fenster' means the window.",
+          "options": [
+            {
+              "id": "o-de-3-4-1",
+              "option_text": "Das Fenster",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-3-4-2",
+              "option_text": "Die Tür",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-4-3",
+              "option_text": "Der Tisch",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-4-4",
+              "option_text": "Das Haus",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-3-5",
+          "question_text": "Which of the following is masculine (der)?",
+          "explanation": "'Der Tisch' (the table) is masculine.",
+          "options": [
+            {
+              "id": "o-de-3-5-1",
+              "option_text": "Der Tisch",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-3-5-2",
+              "option_text": "Das Haus",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-5-3",
+              "option_text": "Die Tür",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-3-5-4",
+              "option_text": "Das Wasser",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-de-4",
+      "language_id": "lang-de",
+      "level_id": "lvl-a1",
+      "title": "Deutsche Verben: Sein & Haben (Core Verbs)",
+      "description": "Conjugate 'sein' (to be) and 'haben' (to have) plus regular verbs in present tense.",
+      "duration_minutes": 24,
+      "lesson_order": 4,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=9oZ_fR3E8fM",
+      "objectives": [
+        "Conjugate 'sein': ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind",
+        "Conjugate 'haben': ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben",
+        "Conjugate regular verbs ending in -en (lernen, sprechen)"
+      ],
+      "content": "### Die wichtigsten Verben : Sein & Haben\n\n#### 1. Sein (To Be):\n- **Ich bin** (I am)\n- **Du bist** (You are)\n- **Er / Sie / Es ist** (He / She / It is)\n- **Wir sind** (We are)\n- **Ihr seid** (You all are)\n- **Sie sind** (They / You formal are)\n\n#### 2. Haben (To Have):\n- **Ich habe** (I have)\n- **Du hast** (You have)\n- **Er / Sie / Es hat** (He / She / It has)\n- **Wir haben** (We have)\n- **Ihr habt** (You all have)\n- **Sie haben** (They / You formal have)",
+      "grammar_notes": "In main declarative clauses, the conjugated verb is ALWAYS in position 2: 'Heute **lerne** ich Deutsch.'",
+      "vocabulary": [
+        {
+          "id": "v-de-4-1",
+          "word": "Sein",
+          "translation": "To be",
+          "pronunciation": "/zaɪ̯n/",
+          "example_sentence": "Ich bin Student.",
+          "example_translation": "I am a student."
+        },
+        {
+          "id": "v-de-4-2",
+          "word": "Haben",
+          "translation": "To have",
+          "pronunciation": "/ˈhaːbn̩/",
+          "example_sentence": "Wir haben Zeit.",
+          "example_translation": "We have time."
+        },
+        {
+          "id": "v-de-4-3",
+          "word": "Sprechen",
+          "translation": "To speak",
+          "pronunciation": "/ˈʃpʁɛçn̩/",
+          "example_sentence": "Ich spreche Deutsch und Englisch.",
+          "example_translation": "I speak German and English."
+        },
+        {
+          "id": "v-de-4-4",
+          "word": "Wohnen",
+          "translation": "To live / reside",
+          "pronunciation": "/ˈvoːnən/",
+          "example_sentence": "Er wohnt in München.",
+          "example_translation": "He lives in Munich."
+        },
+        {
+          "id": "v-de-4-4b",
+          "word": "Trinken",
+          "translation": "To drink",
+          "pronunciation": "/ˈtʁɪŋkn̩/",
+          "example_sentence": "Ich trinke Tee.",
+          "example_translation": "I drink tea."
+        },
+        {
+          "id": "v-de-4-6",
+          "word": "Essen",
+          "translation": "To eat",
+          "pronunciation": "/ˈɛsn̩/",
+          "example_sentence": "Wir essen Brot.",
+          "example_translation": "We eat bread."
+        },
+        {
+          "id": "v-de-4-7",
+          "word": "Arbeiten",
+          "translation": "To work",
+          "pronunciation": "/ˈaʁbaɪ̯tn̩/",
+          "example_sentence": "Sie arbeitet in Frankfurt.",
+          "example_translation": "She works in Frankfurt."
+        },
+        {
+          "id": "v-de-4-8",
+          "word": "Lernen",
+          "translation": "To learn",
+          "pronunciation": "/ˈlɛʁnən/",
+          "example_sentence": "Wir lernen Deutsch online.",
+          "example_translation": "We learn German online."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-de-4-1",
+          "question_text": "What is the 'Ich' form of the verb 'sein' (to be)?",
+          "explanation": "'Ich bin' is the 1st person singular form.",
+          "options": [
+            {
+              "id": "o-de-4-1-1",
+              "option_text": "bin",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-4-1-2",
+              "option_text": "bist",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-1-3",
+              "option_text": "ist",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-1-4",
+              "option_text": "sind",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-4-2",
+          "question_text": "Conjugate 'haben' for 'Du':",
+          "explanation": "'Du hast' is 2nd person singular for haben.",
+          "options": [
+            {
+              "id": "o-de-4-2-1",
+              "option_text": "hast",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-4-2-2",
+              "option_text": "habe",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-2-3",
+              "option_text": "hat",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-2-4",
+              "option_text": "haben",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-4-3",
+          "question_text": "Where does the conjugated verb sit in a standard German main sentence?",
+          "explanation": "German follows the Verb-Second (V2) rule in main clauses.",
+          "options": [
+            {
+              "id": "o-de-4-3-1",
+              "option_text": "Position 2 (second element)",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-4-3-2",
+              "option_text": "Always at the very end",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-3-3",
+              "option_text": "Always at the very beginning",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-3-4",
+              "option_text": "Position 3",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-4-4",
+          "question_text": "Complete: 'Wir ___ Deutsch.' (verb lernen):",
+          "explanation": "'Wir lernen' is the 1st person plural form.",
+          "options": [
+            {
+              "id": "o-de-4-4-1",
+              "option_text": "lernen",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-4-4-2",
+              "option_text": "lerne",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-4-3",
+              "option_text": "lernt",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-4-4",
+              "option_text": "lernst",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-4-5",
+          "question_text": "How do you say 'We are happy' (verb sein)?",
+          "explanation": "'Wir sind glücklich' uses 'sind'.",
+          "options": [
+            {
+              "id": "o-de-4-5-1",
+              "option_text": "Wir sind glücklich.",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-4-5-2",
+              "option_text": "Wir seid glücklich.",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-5-3",
+              "option_text": "Wir haben glücklich.",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-4-5-4",
+              "option_text": "Wir bin glücklich.",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-de-5",
+      "language_id": "lang-de",
+      "level_id": "lvl-a1",
+      "title": "Im Restaurant & Nach dem Weg fragen (Dining & Directions)",
+      "description": "Order food and drinks at a traditional German Gaststätte and ask for directions.",
+      "duration_minutes": 20,
+      "lesson_order": 5,
+      "is_published": true,
+      "video_url": "https://www.youtube.com/watch?v=F_fQjI-HwH4",
+      "objectives": [
+        "Order food with 'Ich möchte gern...' (I would like to have...)",
+        "Ask 'Was kostet das?' (How much is that?)",
+        "Ask for the bill: 'Die Rechnung, bitte'"
+      ],
+      "content": "### Im Restaurant & Café\nGerman dining etiquette is polite, prompt, and structured.\n\n#### 🍽️ Der Dialog:\n- **Kellner:** \"Guten Tag! Was darf ich Ihnen bringen?\"\n- **Gast:** \"Guten Tag! **Ich möchte gern** ein Schnitzel mit Kartoffelsalat und ein Mineralwasser, bitte.\"\n- **Kellner:** \"Sehr gern! Kommt sofort.\"\n- **Gast:** \"**Die Rechnung, bitte!**\"\n- **Kellner:** \"Das macht 14 Euro 20.\"\n\n#### 🗺️ Nach dem Weg fragen:\n- **\"Entschuldigung, wo ist der Bahnhof?\"** (Excuse me, where is the train station?)\n- **\"Gehen Sie geradeaus und biegen Sie rechts ab.\"** (Go straight and turn right.)",
+      "grammar_notes": "'Ich möchte gern...' (from möchten) is the polite German formulation for 'I would like to have...'.",
+      "vocabulary": [
+        {
+          "id": "v-de-5-1",
+          "word": "Ich möchte gern",
+          "translation": "I would like (to have)",
+          "pronunciation": "/ɪç ˈmœçtə ɡɛʁn/",
+          "example_sentence": "Ich möchte gern einen Kaffee, bitte.",
+          "example_translation": "I would like a coffee, please."
+        },
+        {
+          "id": "v-de-5-2",
+          "word": "Die Rechnung",
+          "translation": "The bill / check",
+          "pronunciation": "/diː ˈʁɛçnʊŋ/",
+          "example_sentence": "Die Rechnung, bitte.",
+          "example_translation": "The bill, please."
+        },
+        {
+          "id": "v-de-5-3",
+          "word": "Was kostet das?",
+          "translation": "How much does that cost?",
+          "pronunciation": "/vas ˈkɔstət das/",
+          "example_sentence": "Entschuldigung, was kostet das?",
+          "example_translation": "Excuse me, how much is that?"
+        },
+        {
+          "id": "v-de-5-4",
+          "word": "Entschuldigung",
+          "translation": "Excuse me / Sorry",
+          "pronunciation": "/ɛntˈʃʊldɪɡʊŋ/",
+          "example_sentence": "Entschuldigung, sprechen Sie Englisch?",
+          "example_translation": "Excuse me, do you speak English?"
+        },
+        {
+          "id": "v-de-5-5",
+          "word": "Geradeaus",
+          "translation": "Straight ahead",
+          "pronunciation": "/ɡəˈʁaːdəˌʔaʊ̯s/",
+          "example_sentence": "Gehen Sie immer geradeaus.",
+          "example_translation": "Go straight ahead."
+        },
+        {
+          "id": "v-de-5-6",
+          "word": "Rechts",
+          "translation": "Right (Direction)",
+          "pronunciation": "/ʁɛçts/",
+          "example_sentence": "Biegen Sie nach rechts ab.",
+          "example_translation": "Turn to the right."
+        },
+        {
+          "id": "v-de-5-7",
+          "word": "Links",
+          "translation": "Left (Direction)",
+          "pronunciation": "/lɪŋks/",
+          "example_sentence": "Das Hotel ist auf der linken Seite.",
+          "example_translation": "The hotel is on the left side."
+        },
+        {
+          "id": "v-de-5-8",
+          "word": "Wo ist",
+          "translation": "Where is...?",
+          "pronunciation": "/voː ɪst/",
+          "example_sentence": "Wo ist die U-Bahn-Station?",
+          "example_translation": "Where is the subway station?"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q-de-5-1",
+          "question_text": "What is the polite German phrase to order food or drinks?",
+          "explanation": "'Ich möchte gern...' is the standard polite request phrase.",
+          "options": [
+            {
+              "id": "o-de-5-1-1",
+              "option_text": "Ich möchte gern...",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-5-1-2",
+              "option_text": "Ich will sofort...",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-1-3",
+              "option_text": "Gib mir...",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-1-4",
+              "option_text": "Bring jetzt...",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-5-2",
+          "question_text": "How do you ask for the bill at a German restaurant?",
+          "explanation": "'Die Rechnung, bitte' asks for the check politely.",
+          "options": [
+            {
+              "id": "o-de-5-2-1",
+              "option_text": "Die Rechnung, bitte.",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-5-2-2",
+              "option_text": "Geld jetzt bitte.",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-2-3",
+              "option_text": "Preis schnell.",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-2-4",
+              "option_text": "Auf Wiedersehen Geld.",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-5-3",
+          "question_text": "What does 'Entschuldigung' mean?",
+          "explanation": "'Entschuldigung' means 'Excuse me' or 'Sorry'.",
+          "options": [
+            {
+              "id": "o-de-5-3-1",
+              "option_text": "Excuse me / Sorry",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-5-3-2",
+              "option_text": "Good night",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-3-3",
+              "option_text": "You are welcome",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-3-4",
+              "option_text": "Thank you",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-5-4",
+          "question_text": "What direction does 'Geradeaus' mean?",
+          "explanation": "'Geradeaus' means 'Straight ahead'.",
+          "options": [
+            {
+              "id": "o-de-5-4-1",
+              "option_text": "Straight ahead",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-5-4-2",
+              "option_text": "To the right",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-4-3",
+              "option_text": "To the left",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-4-4",
+              "option_text": "Backwards",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "id": "q-de-5-5",
+          "question_text": "How do you ask 'Where is the train station?' in German?",
+          "explanation": "'Wo ist der Bahnhof?' is the correct question.",
+          "options": [
+            {
+              "id": "o-de-5-5-1",
+              "option_text": "Wo ist der Bahnhof?",
+              "is_correct": true
+            },
+            {
+              "id": "o-de-5-5-2",
+              "option_text": "Was ist der Bahnhof?",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-5-3",
+              "option_text": "Wann ist der Bahnhof?",
+              "is_correct": false
+            },
+            {
+              "id": "o-de-5-5-4",
+              "option_text": "Wie ist der Bahnhof?",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

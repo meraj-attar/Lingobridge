@@ -1,0 +1,133 @@
+{
+  "languages": {
+    "en": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 22,
+      "vocabulary": 86,
+      "questions": 93
+    },
+    "hi": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 22,
+      "vocabulary": 86,
+      "questions": 93
+    },
+    "mr": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 22,
+      "vocabulary": 56,
+      "questions": 88
+    },
+    "gu": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 18,
+      "vocabulary": 54,
+      "questions": 72
+    },
+    "bn": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 18,
+      "vocabulary": 54,
+      "questions": 72
+    },
+    "ta": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 18,
+      "vocabulary": 54,
+      "questions": 72
+    },
+    "te": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 18,
+      "vocabulary": 54,
+      "questions": 72
+    },
+    "kn": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 18,
+      "vocabulary": 54,
+      "questions": 72
+    },
+    "ur": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 18,
+      "vocabulary": 54,
+      "questions": 72
+    },
+    "es": {
+      "courses": 6,
+      "modules": 6,
+      "lessons": 18,
+      "vocabulary": 54,
+      "questions": 72
+    }
+  },
+  "issues": [],
+  "issue_count": 0,
+  "packaged_recordings": {
+    "114a97af-fe35-41f5-89e8-52b1673b67cc.mp3": {
+      "bytes": 35,
+      "decodable": false,
+      "duration_seconds": null,
+      "note": "Missing or too small to contain reliable recorded speech"
+    },
+    "55aa31a3-f238-4238-9778-60a1f0a84b3a.mp3": {
+      "bytes": 35,
+      "decodable": false,
+      "duration_seconds": null,
+      "note": "Missing or too small to contain reliable recorded speech"
+    },
+    "5b553ace-ca1e-4620-a78b-da6bfa45ec42.mp3": {
+      "bytes": 35,
+      "decodable": false,
+      "duration_seconds": null,
+      "note": "Missing or too small to contain reliable recorded speech"
+    },
+    "6d2554ca-1a3a-49c3-b856-6ff381bdc178.mp3": {
+      "bytes": 35,
+      "decodable": false,
+      "duration_seconds": null,
+      "note": "Missing or too small to contain reliable recorded speech"
+    },
+    "f3007986-ed41-42af-a7bf-9a8912779fde.mp3": {
+      "bytes": 35,
+      "decodable": false,
+      "duration_seconds": null,
+      "note": "Missing or too small to contain reliable recorded speech"
+    },
+    "lb-demo-en-sentence-eb44e0905d13afe434fc.mp3": {
+      "bytes": 20492,
+      "decodable": true,
+      "duration_seconds": 2.52,
+      "note": "Decodable audio stream (ffprobe)"
+    },
+    "lb-demo-en-word-7cce0afe48bc4d268412.mp3": {
+      "bytes": 9548,
+      "decodable": true,
+      "duration_seconds": 1.152,
+      "note": "Decodable audio stream (ffprobe)"
+    },
+    "lb-demo-es-sentence-1b71f81c0fe619f734f5.mp3": {
+      "bytes": 16748,
+      "decodable": true,
+      "duration_seconds": 2.052,
+      "note": "Decodable audio stream (ffprobe)"
+    },
+    "lb-demo-es-word-474fb8f6b7efcb31e811.mp3": {
+      "bytes": 7532,
+      "decodable": true,
+      "duration_seconds": 0.9,
+      "note": "Decodable audio stream (ffprobe)"
+    }
+  },
+  "disclaimer": "Structural review only; professional/native-speaker copy-edit and playback on actual devices are still required."
+}

@@ -1,0 +1,25 @@
+{
+  "isolated_sqlite": true,
+  "counts": {
+    "languages": 10,
+    "courses": 60,
+    "lessons": 192,
+    "vocabulary_items": 606,
+    "quiz_questions": 778,
+    "quiz_options": 928,
+    "users": 0
+  },
+  "locales": {
+    "en": "en-US",
+    "hi": "hi-IN",
+    "mr": "mr-IN",
+    "gu": "gu-IN",
+    "bn": "bn-IN",
+    "ta": "ta-IN",
+    "te": "te-IN",
+    "kn": "kn-IN",
+    "ur": "ur-PK",
+    "es": "es-ES"
+  },
+  "alembic_head": "0004 (source review, not PostgreSQL migration verification)"
+}

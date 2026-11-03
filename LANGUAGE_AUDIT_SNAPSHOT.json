@@ -1,0 +1,722 @@
+{
+  "en": {
+    "native_name": "English",
+    "tts_locale": "en-US",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 7,
+        "vocabulary": 46,
+        "questions": 33,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  },
+  "hi": {
+    "native_name": "हिन्दी",
+    "tts_locale": "hi-IN",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 7,
+        "vocabulary": 46,
+        "questions": 33,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  },
+  "mr": {
+    "native_name": "मराठी",
+    "tts_locale": "mr-IN",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 7,
+        "vocabulary": 16,
+        "questions": 28,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 8,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  },
+  "gu": {
+    "native_name": "ગુજરાતી",
+    "tts_locale": "gu-IN",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  },
+  "bn": {
+    "native_name": "বাংলা",
+    "tts_locale": "bn-IN",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  },
+  "ta": {
+    "native_name": "தமிழ்",
+    "tts_locale": "ta-IN",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  },
+  "te": {
+    "native_name": "తెలుగు",
+    "tts_locale": "te-IN",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  },
+  "kn": {
+    "native_name": "ಕನ್ನಡ",
+    "tts_locale": "kn-IN",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  },
+  "ur": {
+    "native_name": "اردو",
+    "tts_locale": "ur-PK",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  },
+  "es": {
+    "native_name": "Español",
+    "tts_locale": "es-ES",
+    "levels": {
+      "A1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "A2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "B2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C1": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      },
+      "C2": {
+        "courses": 1,
+        "modules": 1,
+        "lessons": 3,
+        "vocabulary": 9,
+        "questions": 12,
+        "lessons_missing_vocabulary": 0,
+        "lessons_missing_questions": 0,
+        "recorded_vocabulary_audio": 0,
+        "recorded_lesson_audio": 0
+      }
+    }
+  }
+}

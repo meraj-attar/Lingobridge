@@ -1,0 +1,42 @@
+{
+  "source_archive_sha256": "5577ee685ed8c44cbffd1a09d2cf0037a48aed36cd878d862977687a83136486",
+  "source_zip_entries": 182,
+  "source_archive_unchanged": true,
+  "alembic_migration_changes": false,
+  "existing_postgres_touched": false,
+  "changed_source_files": [
+    {
+      "path": "backend/app/main.py",
+      "status": "MODIFIED",
+      "sha256": "577167e69e984d4eff9022d302868ad0cb57e256e43107ae1f6f02466cefc61f",
+      "original_sha256": "1716b4c020221b0092ceb248c906e73d0668c2050397acfbff879a44cf9aab00"
+    },
+    {
+      "path": "backend/app/security.py",
+      "status": "MODIFIED",
+      "sha256": "9d08bc08b5e046f03f70cd164dc6f97e1df402903bcb0807539b130dd9f26aa5",
+      "original_sha256": "433b67723dc759958a0b28c561a81372a891bf5988fe2a426a1c2140b57cba0d"
+    },
+    {
+      "path": "backend/tests/test_final_senior_audit.py",
+      "status": "ADDED",
+      "sha256": "49d441a3cb35be87a8c98b5528f9128945f44e31238d16e2702e4e39ca00c78b",
+      "original_sha256": null
+    },
+    {
+      "path": "src/pages/admin/StudentOverviewPage.jsx",
+      "status": "MODIFIED",
+      "sha256": "6297d4485dc30cafeec88d1bd5449b68291cfa6043467ce33d73374fc0f923fb",
+      "original_sha256": "2a9517efc217cb25d98b0b3ae14641d5f3ca45b3474eff306a8f386184af0f86"
+    },
+    {
+      "path": "src/services/api.js",
+      "status": "MODIFIED",
+      "sha256": "13a638ab277d3ffe6f73472cbbd48d09871202c4105cb203cdcf7ea40880a61b",
+      "original_sha256": "3e930e2778bcf876514bd820b01edb3ef3dce7900482252cafcc139dbc80f6a1"
+    }
+  ],
+  "new_reports_directory": "QA_FINAL/",
+  "new_logs_directory": "NEW_QA_EVIDENCE/",
+  "note": "Original source code and historical reports preserved; list excludes generated QA documents and logs."
+}

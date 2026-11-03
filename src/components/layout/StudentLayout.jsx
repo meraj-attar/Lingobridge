@@ -1,0 +1,29 @@
+import React from 'react';
+import { Outlet, Navigate, useLocation } from 'react-router-dom';
+import { Navbar } from '../common/Navbar';
+import { Footer } from '../common/Footer';
+import { useAuth } from '../../contexts/AuthContext';
+import { LoadingState } from '../common/LoadingState';
+
+export const StudentLayout = () => {
+  const { isAuthenticated, isLoading } = useAuth();
+  const location = useLocation();
+
+  if (isLoading) {
+    return <LoadingState fullPage message="Authenticating session..." />;
+  }
+
+  if (!isAuthenticated) {
+    return <Navigate to="/login" state={{ from: location }} replace />;
+  }
+
+  return (
+    <div className="min-h-screen flex flex-col bg-slate-50">
+      <Navbar />
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
+  );
+};

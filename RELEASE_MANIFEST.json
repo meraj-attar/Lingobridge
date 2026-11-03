@@ -1,0 +1,40 @@
+{
+  "release": "LingoBridge 2026-10-30 targeted defect fixes",
+  "automated_tests": {
+    "pytest_pass": 114,
+    "node_pass": 35,
+    "test_failures": 0
+  },
+  "blocked": [
+    "clean frontend dependency install",
+    "Vite production build",
+    "Vitest",
+    "Playwright UI clicks",
+    "Windows responsive checks",
+    "PostgreSQL concurrency",
+    "real ten-language voice listening"
+  ],
+  "migrations_added": 0,
+  "alembic_head": "0004",
+  "src_files_modified": [
+    "backend/app/main.py",
+    "src/utils/youtube.js",
+    "src/components/lessons/VideoPlayer.jsx",
+    "src/pages/admin/ManageVideosPage.jsx",
+    "src/pages/admin/ManageLessonsPage.jsx",
+    "src/pages/admin/ManageQuizzesPage.jsx"
+  ],
+  "new_code": [
+    "backend/app/video_urls.py",
+    "backend/tests/test_release_defect_fixes.py",
+    "tests/video-url.test.mjs"
+  ],
+  "docs_added": [
+    "RELEASE_DEFECT_FIXES.md",
+    "RELEASE_TEST_REPORT.md",
+    "RELEASE_SECURITY_AUDIT.md",
+    "API_VALIDATION_GUIDE.md",
+    "RELEASE_EXECUTION_LOG.md",
+    "BROWSER_ACCEPTANCE_CHECKLIST.csv"
+  ]
+}

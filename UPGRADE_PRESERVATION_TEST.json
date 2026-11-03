@@ -1,0 +1,20 @@
+{
+  "test": "Legacy original ZIP SQLite schema 0002 upgraded to 0003",
+  "result": "PASS",
+  "protected_tables": {
+    "users": 1,
+    "lesson_progress": 1,
+    "quiz_attempts": 1,
+    "course_enrollments": 1,
+    "flashcard_states": 1,
+    "bookmarks": 1
+  },
+  "tested_guards": [
+    "instructor lesson title",
+    "instructor quiz option",
+    "existing scored quiz attempt",
+    "all protected rows exact",
+    "locale backfill",
+    "idempotent seed"
+  ]
+}
